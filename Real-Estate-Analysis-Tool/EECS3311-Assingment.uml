@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ee6HoLRnEe23GrQ-bRKyhQ" name="EECS3311_Assingment">
+    <eAnnotations xmi:id="_etc58LRnEe23GrQ-bRKyhQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_etc58bRnEe23GrQ-bRKyhQ" source="codegen">
+        <details xmi:id="_etc58rRnEe23GrQ-bRKyhQ" key="codegenDirectory" value="/EECS3311-Assingment/src"/>
+        <details xmi:id="_fJqU0LRnEe23GrQ-bRKyhQ" key="AssociatedSourceCode" value="/EECS3311-Assingment/src/main/VisualiserModule/VisualiserMain.java;3937407381/1;/EECS3311-Assingment/src/Test/StatsCalculatorTest.java;3992958520/1;/EECS3311-Assingment/src/main/Controller/ControllerMain.java;771465945/1;/EECS3311-Assingment/src/main/Controller/DataFetcherMain.java;2794709876/1;/EECS3311-Assingment/src/main/Controller/DbInterface.java;1285813430/1;/EECS3311-Assingment/src/main/Controller/HousingPriceData.java;4038808417/1;/EECS3311-Assingment/src/main/Controller/MySQLAccess.java;2348348185/1;/EECS3311-Assingment/src/main/StatisticalModule/ForeCastMain.java;2627708030/1;/EECS3311-Assingment/src/main/StatisticalModule/StatisticalMain.java;1201329232/1;/EECS3311-Assingment/src/main/StatisticalModule/StatsCalculator.java;1929820940/1;/EECS3311-Assingment/src/Test/DataFetchTest.java;1909593893/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_e43fwLRnEe23GrQ-bRKyhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_e44G0LRnEe23GrQ-bRKyhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_e44G0bRnEe23GrQ-bRKyhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_e44G0rRnEe23GrQ-bRKyhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_e44G07RnEe23GrQ-bRKyhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_e44G1LRnEe23GrQ-bRKyhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_e44G1bRnEe23GrQ-bRKyhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_e44G1rRnEe23GrQ-bRKyhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_e44t4LRnEe23GrQ-bRKyhQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_e4zOULRnEe23GrQ-bRKyhQ" name="main">
+      <packagedElement xmi:type="uml:Package" xmi:id="_e42RoLRnEe23GrQ-bRKyhQ" name="VisualiserModule">
+        <packagedElement xmi:type="uml:Class" xmi:id="_e5kDULRnEe23GrQ-bRKyhQ" name="VisualiserMain"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_e45U8LRnEe23GrQ-bRKyhQ" name="Controller">
+        <packagedElement xmi:type="uml:Class" xmi:id="_e5vpgLRnEe23GrQ-bRKyhQ" name="ControllerMain"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e5wQkLRnEe23GrQ-bRKyhQ" name="DataFetcherMain">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAiOArRnEe23GrQ-bRKyhQ" name="main" specification="_e5w3oLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAi1ELRnEe23GrQ-bRKyhQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAi1EbRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>MySQLAccess db = new MySQLAccess();&#xD;
+		Map&lt;String, List&lt;HousingPriceData>> data  = new HashMap&lt;>();&#xD;
+		db.readDataBase(&quot;Canada&quot;, &quot;Jan-89&quot;, &quot;Feb-91&quot;);&#xD;
+		data = db.getHousingDataMap();&#xD;
+&#xD;
+		// Print header row&#xD;
+		System.out.printf(&quot;%-15s %-60s %-40s %-15s%n&quot;, &quot;Ref Date&quot;, &quot;Geo&quot;, &quot;Index Type&quot;, &quot;Value&quot;);&#xD;
+		System.out.println(&quot;&quot;);&#xD;
+&#xD;
+		for (Map.Entry&lt;String, List&lt;HousingPriceData>> entry : data.entrySet()) {&#xD;
+			List&lt;HousingPriceData> dataList = entry.getValue();&#xD;
+			for (HousingPriceData housingPriceData : dataList) {&#xD;
+&#xD;
+				String refDate = housingPriceData.getRefDate();&#xD;
+				String geo = housingPriceData.getGeo();&#xD;
+				String indexType = housingPriceData.getIndexType();&#xD;
+				String value = housingPriceData.getValue();&#xD;
+				// print the data&#xD;
+				System.out.printf(&quot;%-15s %-60s %-40s %-15s%n&quot;, refDate, geo, indexType, value);&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_e5w3oLRnEe23GrQ-bRKyhQ" name="main" isStatic="true" method="_fAiOArRnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e5w3obRnEe23GrQ-bRKyhQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e5xesLRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_e5yFwLRnEe23GrQ-bRKyhQ" name="DbInterface">
+          <ownedOperation xmi:id="_e5zT4LRnEe23GrQ-bRKyhQ" name="getValuesFormGeoAndRange" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e5zT4bRnEe23GrQ-bRKyhQ" name="geo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e5zT4rRnEe23GrQ-bRKyhQ" name="date1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e5zT47RnEe23GrQ-bRKyhQ" name="date2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e5zT5LRnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e5zT5bRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e51JELRnEe23GrQ-bRKyhQ" name="HousingPriceData">
+          <ownedAttribute xmi:id="_fAOsALRnEe23GrQ-bRKyhQ" name="refDate">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_fAPTELRnEe23GrQ-bRKyhQ" name="geo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_fAPTEbRnEe23GrQ-bRKyhQ" name="indexType">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_fAP6ILRnEe23GrQ-bRKyhQ" name="value">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAi1ErRnEe23GrQ-bRKyhQ" name="HousingPriceData" specification="_e53lULRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAi1E7RnEe23GrQ-bRKyhQ" name="refDate">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAi1FLRnEe23GrQ-bRKyhQ" name="geo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAi1FbRnEe23GrQ-bRKyhQ" name="indexType">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAi1FrRnEe23GrQ-bRKyhQ" name="value">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAi1F7RnEe23GrQ-bRKyhQ" type="_e51JELRnEe23GrQ-bRKyhQ" direction="return"/>
+            <language>java</language>
+            <body>this.refDate = refDate;&#xD;
+         this.geo = geo;&#xD;
+         this.indexType = indexType;&#xD;
+         this.value = value;&#xD;
+     </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_e53lULRnEe23GrQ-bRKyhQ" name="HousingPriceData" method="_fAi1ErRnEe23GrQ-bRKyhQ">
+            <eAnnotations xmi:id="_e54MZLRnEe23GrQ-bRKyhQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_e54zcLRnEe23GrQ-bRKyhQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_e54MYLRnEe23GrQ-bRKyhQ" name="refDate">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e54MYbRnEe23GrQ-bRKyhQ" name="geo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e54MYrRnEe23GrQ-bRKyhQ" name="indexType">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e54MY7RnEe23GrQ-bRKyhQ" name="value">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e54zcbRnEe23GrQ-bRKyhQ" type="_e51JELRnEe23GrQ-bRKyhQ" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e56BkLRnEe23GrQ-bRKyhQ" name="MySQLAccess">
+          <ownedAttribute xmi:id="_fAP6IbRnEe23GrQ-bRKyhQ" name="connect" visibility="private" type="_e_xZALRnEe23GrQ-bRKyhQ" association="_fAsmELRnEe23GrQ-bRKyhQ">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_fAP6IrRnEe23GrQ-bRKyhQ" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_fAQhMbRnEe23GrQ-bRKyhQ" name="statement" visibility="private" type="_e_2RgLRnEe23GrQ-bRKyhQ" association="_fAtNIbRnEe23GrQ-bRKyhQ">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_fARIQLRnEe23GrQ-bRKyhQ" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_fARIQrRnEe23GrQ-bRKyhQ" name="resultSet" visibility="private" type="_e_0cUbRnEe23GrQ-bRKyhQ" association="_fAt0MbRnEe23GrQ-bRKyhQ">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_fARvULRnEe23GrQ-bRKyhQ" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_fARvUrRnEe23GrQ-bRKyhQ" name="URL" visibility="private" isLeaf="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_fASWYLRnEe23GrQ-bRKyhQ" value="&quot;jdbc:mysql://localhost:3306/eecs3311?&quot;"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_fASWYrRnEe23GrQ-bRKyhQ" name="USERNAME" visibility="private" isLeaf="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_fASWY7RnEe23GrQ-bRKyhQ" value="&quot;root&quot;"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_fAS9cbRnEe23GrQ-bRKyhQ" name="PASSWORD" visibility="private" isLeaf="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_fAS9crRnEe23GrQ-bRKyhQ" value="&quot;root1234&quot;"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_fATkgLRnEe23GrQ-bRKyhQ" name="housingDataMap" visibility="protected" type="_e_u8wbRnEe23GrQ-bRKyhQ" association="_fAubQbRnEe23GrQ-bRKyhQ">
+            <qualifier xmi:id="_fAUyoLRnEe23GrQ-bRKyhQ">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </qualifier>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_fAULkbRnEe23GrQ-bRKyhQ" value="new HashMap&lt;>()"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_e_574LRnEe23GrQ-bRKyhQ" client="_e56BkLRnEe23GrQ-bRKyhQ" supplier="_e5yFwLRnEe23GrQ-bRKyhQ" contract="_e5yFwLRnEe23GrQ-bRKyhQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAi1GLRnEe23GrQ-bRKyhQ" name="readDataBase" specification="_e572wLRnEe23GrQ-bRKyhQ">
+            <language>java</language>
+            <body>try {&#xD;
+         // This will load the MySQL driver, each DB has its own driver&#xD;
+         Class.forName(&quot;com.mysql.cj.jdbc.Driver&quot;);&#xD;
+&#xD;
+         connect = DriverManager.getConnection(URL, USERNAME, PASSWORD);&#xD;
+         // Setup the connection with the DB with location, user, password&#xD;
+         statement = connect.createStatement();&#xD;
+         &#xD;
+         // Result set get the result of the SQL query&#xD;
+         resultSet = statement.executeQuery(&quot;select * from `18100205`&quot;);&#xD;
+&#xD;
+     } catch (Exception e) {&#xD;
+         throw e;&#xD;
+     } &#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAjcILRnEe23GrQ-bRKyhQ" name="readDataBase" specification="_e59E4LRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAjcIbRnEe23GrQ-bRKyhQ" name="geo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>try {&#xD;
+         // This will load the MySQL driver, each DB has its own driver&#xD;
+         Class.forName(&quot;com.mysql.cj.jdbc.Driver&quot;);&#xD;
+&#xD;
+         connect = DriverManager.getConnection(URL, USERNAME, PASSWORD);&#xD;
+         // Setup the connection with the DB with location, user, password&#xD;
+         statement = connect.createStatement();&#xD;
+         &#xD;
+         // Result set get the result of the SQL query&#xD;
+         resultSet = statement.executeQuery(&quot;select * from `18100205` where GEO = '&quot; + geo + &quot;'&quot;);&#xD;
+&#xD;
+     } catch (Exception e) {&#xD;
+         throw e;&#xD;
+     } &#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAjcIrRnEe23GrQ-bRKyhQ" name="readDataBase" specification="_e5-TALRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAjcI7RnEe23GrQ-bRKyhQ" name="geo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAjcJLRnEe23GrQ-bRKyhQ" name="date1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAjcJbRnEe23GrQ-bRKyhQ" name="date2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>try {&#xD;
+         // This will load the MySQL driver, each DB has its own driver&#xD;
+         Class.forName(&quot;com.mysql.cj.jdbc.Driver&quot;);&#xD;
+&#xD;
+         connect = DriverManager.getConnection(URL, USERNAME, PASSWORD);&#xD;
+         // Setup the connection with the DB with location, user, password&#xD;
+         statement = connect.createStatement();&#xD;
+         &#xD;
+         // Result set get the result of the SQL query&#xD;
+         resultSet = statement.executeQuery(&quot;SELECT `REF_DATE`, `GEO`, `New housing price indexes`, `VALUE`  &quot;&#xD;
+         		+ &quot;FROM `18100205`   WHERE STR_TO_DATE(CONCAT('02-',REF_DATE), '%d-%b-%y') BETWEEN STR_TO_DATE('01-&quot; + date1 + &quot;', '%d-%b-%y') &quot;&#xD;
+         		+ &quot;AND STR_TO_DATE('28-&quot; + date2 + &quot;', '%d-%b-%y')&quot;&#xD;
+         		+ &quot;AND GEO = '&quot; + geo + &quot;';&quot;);    	&#xD;
+ 	} catch (Exception e) {&#xD;
+         throw e;&#xD;
+     } &#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAjcJrRnEe23GrQ-bRKyhQ" name="getHousingDataMap" specification="_e5_hILRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAjcJ7RnEe23GrQ-bRKyhQ" type="_e_wK4LRnEe23GrQ-bRKyhQ" direction="return"/>
+            <language>java</language>
+            <body>//      readDataBase();&#xD;
+     while (resultSet.next()) {&#xD;
+         String refDate = resultSet.getString(&quot;REF_DATE&quot;);&#xD;
+         String geo = resultSet.getString(&quot;GEO&quot;);&#xD;
+         String indexType = resultSet.getString(&quot;New housing price indexes&quot;);&#xD;
+         String value = resultSet.getString(&quot;VALUE&quot;);&#xD;
+         HousingPriceData data = new HousingPriceData(refDate, geo, indexType, value);&#xD;
+         if (!housingDataMap.containsKey(geo)) {&#xD;
+             housingDataMap.put(geo, new ArrayList&lt;>());&#xD;
+         }&#xD;
+         housingDataMap.get(geo).add(data);&#xD;
+&#xD;
+     }&#xD;
+&#xD;
+     close();&#xD;
+&#xD;
+     return housingDataMap;&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAjcKLRnEe23GrQ-bRKyhQ" name="close" specification="_e6B9YLRnEe23GrQ-bRKyhQ">
+            <language>java</language>
+            <body>try {&#xD;
+         if (resultSet != null) {&#xD;
+             resultSet.close();&#xD;
+         }&#xD;
+&#xD;
+         if (statement != null) {&#xD;
+             statement.close();&#xD;
+         }&#xD;
+&#xD;
+         if (connect != null) {&#xD;
+             connect.close();&#xD;
+         }&#xD;
+     } catch (Exception e) {&#xD;
+&#xD;
+     }&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAjcKbRnEe23GrQ-bRKyhQ" name="getListHousingPrice" specification="_fAJzgLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAjcKrRnEe23GrQ-bRKyhQ" name="map" type="_e_wK4LRnEe23GrQ-bRKyhQ"/>
+            <ownedParameter xmi:id="_fAjcK7RnEe23GrQ-bRKyhQ" type="_e51JELRnEe23GrQ-bRKyhQ" isOrdered="true" direction="return">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAjcLLRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>List&lt;HousingPriceData> list = new ArrayList&lt;>();&#xD;
+&#xD;
+     for (Map.Entry&lt;String, List&lt;HousingPriceData>> entry: map.entrySet()) {&#xD;
+&#xD;
+         list.addAll(entry.getValue());&#xD;
+&#xD;
+     }&#xD;
+&#xD;
+&#xD;
+     return list;&#xD;
+&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAkDMLRnEe23GrQ-bRKyhQ" name="getValuesFromRange" specification="_fALBobRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAkDMbRnEe23GrQ-bRKyhQ" name="list" type="_e_u8wbRnEe23GrQ-bRKyhQ"/>
+            <ownedParameter xmi:id="_fAkDMrRnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAkDM7RnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>double [] result = new double[list.size()];&#xD;
+     int count = 0;&#xD;
+     for (HousingPriceData hpd: list) {&#xD;
+&#xD;
+        result[count++]  = Double.parseDouble(hpd.getValue());&#xD;
+&#xD;
+     }&#xD;
+&#xD;
+     return result;&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAkDNLRnEe23GrQ-bRKyhQ" name="getValuesFormGeoAndRange" specification="_e6DLgLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAkDNbRnEe23GrQ-bRKyhQ" name="geo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAkDNrRnEe23GrQ-bRKyhQ" name="date1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAkDN7RnEe23GrQ-bRKyhQ" name="date2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAkDOLRnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAkDObRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>MySQLAccess db = new MySQLAccess();&#xD;
+     db.readDataBase(geo, date1, date2);&#xD;
+     Map&lt;String, List&lt;HousingPriceData>> map = db.getHousingDataMap();&#xD;
+&#xD;
+     List&lt;HousingPriceData> list = new ArrayList&lt;>();&#xD;
+&#xD;
+     for (Map.Entry&lt;String, List&lt;HousingPriceData>> entry: map.entrySet()) {&#xD;
+&#xD;
+         list.addAll(entry.getValue());&#xD;
+&#xD;
+     }&#xD;
+&#xD;
+     return getValuesFromRange(list);&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_e572wLRnEe23GrQ-bRKyhQ" name="readDataBase" method="_fAi1GLRnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ"/>
+          <ownedOperation xmi:id="_e59E4LRnEe23GrQ-bRKyhQ" name="readDataBase" method="_fAjcILRnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e59E4bRnEe23GrQ-bRKyhQ" name="geo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_e5-TALRnEe23GrQ-bRKyhQ" name="readDataBase" method="_fAjcIrRnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e5-TAbRnEe23GrQ-bRKyhQ" name="geo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e5-TArRnEe23GrQ-bRKyhQ" name="date1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e5-TA7RnEe23GrQ-bRKyhQ" name="date2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_e5_hILRnEe23GrQ-bRKyhQ" name="getHousingDataMap" method="_fAjcJrRnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAJMcLRnEe23GrQ-bRKyhQ" type="_e_wK4LRnEe23GrQ-bRKyhQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_e6B9YLRnEe23GrQ-bRKyhQ" name="close" visibility="private" method="_fAjcKLRnEe23GrQ-bRKyhQ"/>
+          <ownedOperation xmi:id="_e6DLgLRnEe23GrQ-bRKyhQ" name="getValuesFormGeoAndRange" method="_fAkDNLRnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e6DykLRnEe23GrQ-bRKyhQ" name="geo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6DykbRnEe23GrQ-bRKyhQ" name="date1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6DykrRnEe23GrQ-bRKyhQ" name="date2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6Dyk7RnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e6DylLRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_fAJzgLRnEe23GrQ-bRKyhQ" name="getListHousingPrice" visibility="private" method="_fAjcKbRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAJzgbRnEe23GrQ-bRKyhQ" name="map" type="_e_wK4LRnEe23GrQ-bRKyhQ"/>
+            <ownedParameter xmi:id="_fAJzgrRnEe23GrQ-bRKyhQ" type="_e51JELRnEe23GrQ-bRKyhQ" isOrdered="true" direction="return">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAJzg7RnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_fALBobRnEe23GrQ-bRKyhQ" name="getValuesFromRange" visibility="private" method="_fAkDMLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fALBorRnEe23GrQ-bRKyhQ" name="list" type="_e_u8wbRnEe23GrQ-bRKyhQ"/>
+            <ownedParameter xmi:id="_fALBo7RnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fALBpLRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_fAsmELRnEe23GrQ-bRKyhQ" name="" memberEnd="_fAsmEbRnEe23GrQ-bRKyhQ _fAP6IbRnEe23GrQ-bRKyhQ">
+          <ownedEnd xmi:id="_fAsmEbRnEe23GrQ-bRKyhQ" name="" type="_e56BkLRnEe23GrQ-bRKyhQ" association="_fAsmELRnEe23GrQ-bRKyhQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_fAtNIbRnEe23GrQ-bRKyhQ" name="" memberEnd="_fAtNIrRnEe23GrQ-bRKyhQ _fAQhMbRnEe23GrQ-bRKyhQ">
+          <ownedEnd xmi:id="_fAtNIrRnEe23GrQ-bRKyhQ" name="" type="_e56BkLRnEe23GrQ-bRKyhQ" association="_fAtNIbRnEe23GrQ-bRKyhQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_fAt0MbRnEe23GrQ-bRKyhQ" name="" memberEnd="_fAt0MrRnEe23GrQ-bRKyhQ _fARIQrRnEe23GrQ-bRKyhQ">
+          <ownedEnd xmi:id="_fAt0MrRnEe23GrQ-bRKyhQ" name="" type="_e56BkLRnEe23GrQ-bRKyhQ" association="_fAt0MbRnEe23GrQ-bRKyhQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_fAubQbRnEe23GrQ-bRKyhQ" name="" memberEnd="_fAubQrRnEe23GrQ-bRKyhQ _fATkgLRnEe23GrQ-bRKyhQ">
+          <ownedEnd xmi:id="_fAubQrRnEe23GrQ-bRKyhQ" name="" type="_e56BkLRnEe23GrQ-bRKyhQ" association="_fAubQbRnEe23GrQ-bRKyhQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_xA80kLRpEe23GrQ-bRKyhQ" client="_e56BkLRnEe23GrQ-bRKyhQ" supplier="_fAHXQLRnEe23GrQ-bRKyhQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_e45U8bRnEe23GrQ-bRKyhQ" name="StatisticalModule">
+        <packagedElement xmi:type="uml:Class" xmi:id="_e6M8gLRnEe23GrQ-bRKyhQ" name="ForeCastMain"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e6OKoLRnEe23GrQ-bRKyhQ" name="StatisticalMain">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAkDOrRnEe23GrQ-bRKyhQ" name="main" specification="_e6OxsLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAkDO7RnEe23GrQ-bRKyhQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAkDPLRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>DbInterface dbInterface = new MySQLAccess();&#xD;
+&#xD;
+     StatsCalculator statsCalculator = new StatsCalculator(dbInterface);&#xD;
+     StatsCalculator statsCalculator2 = new StatsCalculator(dbInterface);&#xD;
+&#xD;
+     try {&#xD;
+         statsCalculator.setData1(&quot;Ontario&quot;, &quot;Feb-91&quot;, &quot;Feb-92&quot;);&#xD;
+         statsCalculator.setData2(&quot;Ontario&quot;,&quot;Feb-94&quot;, &quot;Feb-95&quot;);&#xD;
+         statsCalculator2.setData1(&quot;Ontario&quot;, &quot;Feb-91&quot;, &quot;Feb-92&quot;);&#xD;
+         statsCalculator2.setData2(&quot;Ontario&quot;,&quot;Feb-12&quot;, &quot;Feb-13&quot;);&#xD;
+&#xD;
+     } catch (Exception e) {&#xD;
+         e.printStackTrace();&#xD;
+     }&#xD;
+&#xD;
+&#xD;
+     System.out.println(statsCalculator.toString());&#xD;
+     System.out.println(statsCalculator2.toString());&#xD;
+&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_e6OxsLRnEe23GrQ-bRKyhQ" name="main" isStatic="true" method="_fAkDOrRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e6OxsbRnEe23GrQ-bRKyhQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e6OxsrRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e6PYwLRnEe23GrQ-bRKyhQ" name="StatsCalculator">
+          <ownedAttribute xmi:id="_fAUyobRnEe23GrQ-bRKyhQ" name="data1" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAVZsLRnEe23GrQ-bRKyhQ" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_fAWAwbRnEe23GrQ-bRKyhQ" name="dbInterface" visibility="private" type="_e5yFwLRnEe23GrQ-bRKyhQ" association="_fAvCUbRnEe23GrQ-bRKyhQ"/>
+          <ownedAttribute xmi:id="_fAnGgLRnEe23GrQ-bRKyhQ" name="data2" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAkqQLRnEe23GrQ-bRKyhQ" name="StatsCalculator" specification="_fAApkLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAkqQbRnEe23GrQ-bRKyhQ" name="dbInterface" type="_e5yFwLRnEe23GrQ-bRKyhQ"/>
+            <ownedParameter xmi:id="_fAkqQrRnEe23GrQ-bRKyhQ" type="_e6PYwLRnEe23GrQ-bRKyhQ" direction="return"/>
+            <language>java</language>
+            <body>this.dbInterface = dbInterface;&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAkqQ7RnEe23GrQ-bRKyhQ" name="setData1" specification="_e6RN8LRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAkqRLRnEe23GrQ-bRKyhQ" name="geo1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAkqRbRnEe23GrQ-bRKyhQ" name="date1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAkqRrRnEe23GrQ-bRKyhQ" name="date2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.data1 = dbInterface.getValuesFormGeoAndRange( geo1, date1, date2);&#xD;
+&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAkqR7RnEe23GrQ-bRKyhQ" name="setData2" specification="_e6ScELRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAkqSLRnEe23GrQ-bRKyhQ" name="geo1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAkqSbRnEe23GrQ-bRKyhQ" name="date1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAkqSrRnEe23GrQ-bRKyhQ" name="date2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.data2 = dbInterface.getValuesFormGeoAndRange( geo1, date1, date2);&#xD;
+&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAlRULRnEe23GrQ-bRKyhQ" name="getMeanValue" specification="_e6TDILRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAlRUbRnEe23GrQ-bRKyhQ" name="data">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAlRUrRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAlRU7RnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return StatUtils.mean(data);&#xD;
+&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAlRVLRnEe23GrQ-bRKyhQ" name="getDegreeOfFreedom" specification="_e6URQLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAlRVbRnEe23GrQ-bRKyhQ" name="data1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAlRVrRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAlRV7RnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return data1.length -1;&#xD;
+&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAlRWLRnEe23GrQ-bRKyhQ" name="getTValue" specification="_e6U4ULRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAlRWbRnEe23GrQ-bRKyhQ" name="data1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAlRWrRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAlRW7RnEe23GrQ-bRKyhQ" name="data2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAlRXLRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAlRXbRnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return TestUtils.pairedT(data1, data2);&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAlRXrRnEe23GrQ-bRKyhQ" name="getPValue" specification="_e6WGcLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAlRX7RnEe23GrQ-bRKyhQ" name="data1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAlRYLRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAlRYbRnEe23GrQ-bRKyhQ" name="data2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fAlRYrRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_fAlRY7RnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return TestUtils.pairedTTest(data1, data2);&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAlRZLRnEe23GrQ-bRKyhQ" name="toString" specification="_e6XUkbRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_fAlRZbRnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>String summary = &quot;Paired t-test results:\n&quot;;&#xD;
+     double meanValueA = getMeanValue(data1);&#xD;
+     double meanValueB = getMeanValue(data2);&#xD;
+&#xD;
+     if (meanValueB > meanValueA) {&#xD;
+         summary += String.format(&quot;Group B (mean = %.2f) had a significantly higher mean value than Group A (mean = %.2f), t(%d) = %.2f, p = %.18f\n&quot;, meanValueB, meanValueA, getDegreeOfFreedom(data1), getTValue(data1,data2), getPValue(data1,data2));&#xD;
+     } else if (meanValueB == meanValueA) {&#xD;
+         summary += String.format(&quot;No significant difference in mean values between Group A (mean = %.2f) and Group B (mean = %.2f), t(%d) = %.2f, p = %.18f\n&quot;, meanValueA, meanValueB, getDegreeOfFreedom(data1), getTValue(data1, data2), getPValue(data1,data2));&#xD;
+     } else {&#xD;
+         summary += String.format(&quot;Group A (mean = %.2f) had a significantly higher mean value than Group B (mean = %.2f), t(%d) = %.2f, p = %.18f\n&quot;, meanValueB, meanValueA, getDegreeOfFreedom(data1), getTValue(data1, data2), getPValue(data1,data2));&#xD;
+     }&#xD;
+     return summary;&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_e6RN8LRnEe23GrQ-bRKyhQ" name="setData1" method="_fAkqQ7RnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e6RN8bRnEe23GrQ-bRKyhQ" name="geo1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6R1ALRnEe23GrQ-bRKyhQ" name="date1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6R1AbRnEe23GrQ-bRKyhQ" name="date2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_e6ScELRnEe23GrQ-bRKyhQ" name="setData2" method="_fAkqR7RnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e6ScEbRnEe23GrQ-bRKyhQ" name="geo1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6ScErRnEe23GrQ-bRKyhQ" name="date1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6ScE7RnEe23GrQ-bRKyhQ" name="date2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_e6TDILRnEe23GrQ-bRKyhQ" name="getMeanValue" method="_fAlRULRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e6TqMLRnEe23GrQ-bRKyhQ" name="data">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e6TqMrRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6TqMbRnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_e6URQLRnEe23GrQ-bRKyhQ" name="getDegreeOfFreedom" method="_fAlRVLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e6URQbRnEe23GrQ-bRKyhQ" name="data1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e6URQ7RnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6URQrRnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_e6U4ULRnEe23GrQ-bRKyhQ" name="getTValue" method="_fAlRWLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e6U4UbRnEe23GrQ-bRKyhQ" name="data1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e6VfYbRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6U4UrRnEe23GrQ-bRKyhQ" name="data2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e6VfYrRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6VfYLRnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_e6WGcLRnEe23GrQ-bRKyhQ" name="getPValue" method="_fAlRXrRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e6WGcbRnEe23GrQ-bRKyhQ" name="data1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e6WtgrRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6WtgLRnEe23GrQ-bRKyhQ" name="data2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e6XUkLRnEe23GrQ-bRKyhQ" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_e6WtgbRnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_e6XUkbRnEe23GrQ-bRKyhQ" name="toString" method="_fAlRZLRnEe23GrQ-bRKyhQ">
+            <ownedParameter xmi:id="_e6XUkrRnEe23GrQ-bRKyhQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_fAApkLRnEe23GrQ-bRKyhQ" name="StatsCalculator" method="_fAkqQLRnEe23GrQ-bRKyhQ">
+            <eAnnotations xmi:id="_fAApkrRnEe23GrQ-bRKyhQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_fAApk7RnEe23GrQ-bRKyhQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_fAApkbRnEe23GrQ-bRKyhQ" name="dbInterface" type="_e5yFwLRnEe23GrQ-bRKyhQ"/>
+            <ownedParameter xmi:id="_fAAplLRnEe23GrQ-bRKyhQ" type="_e6PYwLRnEe23GrQ-bRKyhQ" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_fAvCUbRnEe23GrQ-bRKyhQ" name="" memberEnd="_fAvCUrRnEe23GrQ-bRKyhQ _fAWAwbRnEe23GrQ-bRKyhQ">
+          <ownedEnd xmi:id="_fAvCUrRnEe23GrQ-bRKyhQ" name="" type="_e6PYwLRnEe23GrQ-bRKyhQ" association="_fAvCUbRnEe23GrQ-bRKyhQ"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_e458ALRnEe23GrQ-bRKyhQ" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_e458AbRnEe23GrQ-bRKyhQ" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_e458ArRnEe23GrQ-bRKyhQ" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_e458A7RnEe23GrQ-bRKyhQ" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_e_qrULRnEe23GrQ-bRKyhQ" name="Test"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_e_r5cbRnEe23GrQ-bRKyhQ" name="Assertions"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_e5RvcLRnEe23GrQ-bRKyhQ" name="apache">
+        <packagedElement xmi:type="uml:Package" xmi:id="_e5RvcbRnEe23GrQ-bRKyhQ" name="commons">
+          <packagedElement xmi:type="uml:Package" xmi:id="_e5RvcrRnEe23GrQ-bRKyhQ" name="math3">
+            <packagedElement xmi:type="uml:Package" xmi:id="_e5Rvc7RnEe23GrQ-bRKyhQ" name="stat">
+              <packagedElement xmi:type="uml:Package" xmi:id="_e5RvdLRnEe23GrQ-bRKyhQ" name="inference">
+                <packagedElement xmi:type="uml:Class" xmi:id="_e__bcLRnEe23GrQ-bRKyhQ" name="TestUtils"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_e49mYLRnEe23GrQ-bRKyhQ" name="Test">
+      <packagedElement xmi:type="uml:Class" xmi:id="_e5oUwLRnEe23GrQ-bRKyhQ" name="StatsCalculatorTest" visibility="package">
+        <ownedAttribute xmi:id="_PHmUg7RpEe23GrQ-bRKyhQ" name="dbInterface" type="_e5yFwLRnEe23GrQ-bRKyhQ" association="_PHltcLRpEe23GrQ-bRKyhQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PHrNALRpEe23GrQ-bRKyhQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PHr0ELRpEe23GrQ-bRKyhQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Tb2_BLRpEe23GrQ-bRKyhQ" name="statsCalculator" type="_e6PYwLRnEe23GrQ-bRKyhQ" association="_Tb2_ALRpEe23GrQ-bRKyhQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tb3mELRpEe23GrQ-bRKyhQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tb3mEbRpEe23GrQ-bRKyhQ" value="1"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAdVgLRnEe23GrQ-bRKyhQ" name="testMeanValue" specification="_e5pi4LRnEe23GrQ-bRKyhQ">
+          <language>java</language>
+          <body>DbInterface dbInterface = new MySQLAccess();&#xD;
+     var statsCalculator = new StatsCalculator(dbInterface);&#xD;
+&#xD;
+     // Test empty array&#xD;
+     double[] data1 = {};&#xD;
+     double expected1 = Double.NaN;&#xD;
+     double actual1 = statsCalculator.getMeanValue(data1);&#xD;
+     assertEquals(expected1, actual1, 0.001);&#xD;
+&#xD;
+     // Test array with single value&#xD;
+     double[] data2 = {5.5};&#xD;
+     double expected2 = 5.5;&#xD;
+     double actual2 = statsCalculator.getMeanValue(data2);&#xD;
+     assertEquals(expected2, actual2, 0.001);&#xD;
+&#xD;
+     // Test array with even number of values&#xD;
+     double[] data3 = {1.0, 2.0, 3.0, 4.0};&#xD;
+     double expected3 = 2.5;&#xD;
+     double actual3 = statsCalculator.getMeanValue(data3);&#xD;
+     assertEquals(expected3, actual3, 0.001);&#xD;
+&#xD;
+     // Test array with odd number of values&#xD;
+     double[] data4 = {1.0, 2.0, 3.0};&#xD;
+     double expected4 = 2.0;&#xD;
+     double actual4 = statsCalculator.getMeanValue(data4);&#xD;
+     assertEquals(expected4, actual4, 0.001);&#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAiOALRnEe23GrQ-bRKyhQ" name="testGetTValue" specification="_e5tNQLRnEe23GrQ-bRKyhQ">
+          <language>java</language>
+          <body>DbInterface dbInterface = new MySQLAccess();&#xD;
+     var statsCalculator = new StatsCalculator(dbInterface);&#xD;
+&#xD;
+     double[] data1a = {55.0, 60.0, 65.0, 70.0, 75.0, 80.0};&#xD;
+     double[] data1b = {55.0, 60.0, 65.0, 70.0, 75.0, 80.0};&#xD;
+     double expected1 = Double.NaN;&#xD;
+     double actual1 = statsCalculator.getTValue(data1a, data1b);&#xD;
+     assertEquals(expected1, actual1, 0.001);&#xD;
+&#xD;
+     // Test with an empty array&#xD;
+     double[] data4a = {};&#xD;
+     double[] data4b = {60.0, 70.0, 80.0, 90.0, 100.0, 110.0};&#xD;
+     assertThrows(IllegalArgumentException.class, () -> statsCalculator.getTValue(data4a, data4b));&#xD;
+&#xD;
+     // Test with an empty array&#xD;
+     double[] data5a = {60.0, 70.0, 80.0, 90.0, 100.0, 110.0};&#xD;
+     double[] data5b = {};&#xD;
+     assertThrows(IllegalArgumentException.class, () -> statsCalculator.getTValue(data5a, data5b));&#xD;
+&#xD;
+     // Test with an empty array&#xD;
+     double[] data6a = {};&#xD;
+     double[] data6b = {};&#xD;
+     assertThrows(IllegalArgumentException.class, () -> statsCalculator.getTValue(data6a, data6b));&#xD;
+&#xD;
+&#xD;
+&#xD;
+     // Test with two arrays with different values&#xD;
+     double[] data2a = {55.0, 60.0, 65.0, 70.0, 75.0, 80.0};&#xD;
+     double[] data2b = {60.0, 65.0, 70.0, 75.0, 80.0, 85.0};&#xD;
+     double expected2 = Double.NEGATIVE_INFINITY;&#xD;
+     double actual2 = statsCalculator.getTValue(data2a, data2b);&#xD;
+     assertEquals(expected2, actual2, 0.001);&#xD;
+&#xD;
+     // Test with two arrays with mixed values&#xD;
+     double[] data3a = {55.0, 60.0, 65.0, 70.0, 75.0, 80.0};&#xD;
+     double[] data3b = {60.0, 70.0, 80.0, 90.0, 100.0, 110.0};&#xD;
+     double expected3 = -4.5825;&#xD;
+     double actual3 = statsCalculator.getTValue(data3a, data3b);&#xD;
+     assertEquals(expected3, actual3, 0.001);&#xD;
+&#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAiOAbRnEe23GrQ-bRKyhQ" name="testGetPValue" specification="_e5ubYbRnEe23GrQ-bRKyhQ">
+          <language>java</language>
+          <body>DbInterface dbInterface = new MySQLAccess();&#xD;
+     var statsCalculator = new StatsCalculator(dbInterface);&#xD;
+&#xD;
+     double[] array1 = {57.0, 62.0, 68.0, 73.0, 77.0, 81.0, 84.0, 85.0};&#xD;
+     double[] array2 = {60.0, 65.0, 71.0, 76.0, 80.0, 83.0, 85.0, 86.0};&#xD;
+&#xD;
+     double pValue = statsCalculator.getPValue(array1, array2);&#xD;
+     assertEquals(0.000158, pValue, 0.001);&#xD;
+&#xD;
+     double[] data1a = {55.0, 60.0, 65.0, 70.0, 75.0, 80.0};&#xD;
+     double[] data1b = {55.0, 60.0, 65.0, 70.0, 75.0, 80.0};&#xD;
+     double expected1 = Double.NaN;&#xD;
+     double actual1 = statsCalculator.getPValue(data1a, data1b);&#xD;
+     assertEquals(expected1, actual1, 0.001);&#xD;
+&#xD;
+     // Test with an empty array&#xD;
+     double[] data4a = {};&#xD;
+     double[] data4b = {60.0, 70.0, 80.0, 90.0, 100.0, 110.0};&#xD;
+     assertThrows(IllegalArgumentException.class, () -> statsCalculator.getPValue(data4a, data4b));&#xD;
+&#xD;
+     // Test with an empty array&#xD;
+     double[] data5a = {60.0, 70.0, 80.0, 90.0, 100.0, 110.0};&#xD;
+     double[] data5b = {};&#xD;
+     assertThrows(IllegalArgumentException.class, () -> statsCalculator.getPValue(data5a, data5b));&#xD;
+&#xD;
+     // Test with an empty array&#xD;
+     double[] data6a = {};&#xD;
+     double[] data6b = {};&#xD;
+     assertThrows(IllegalArgumentException.class, () -> statsCalculator.getPValue(data6a, data6b));&#xD;
+&#xD;
+&#xD;
+&#xD;
+     // Test with two arrays with different values&#xD;
+     double[] data2a = {55.0, 60.0, 65.0, 70.0, 75.0, 80.0};&#xD;
+     double[] data2b = {60.0, 65.0, 70.0, 75.0, 80.0, 85.0};&#xD;
+     double expected2 = 0.0;&#xD;
+     double actual2 = statsCalculator.getPValue(data2a, data2b);&#xD;
+     assertEquals(expected2, actual2, 0.001);&#xD;
+&#xD;
+     // Test with two arrays with mixed values&#xD;
+     double[] data3a = {55.0, 60.0, 65.0, 70.0, 75.0, 80.0};&#xD;
+     double[] data3b = {60.0, 70.0, 80.0, 90.0, 100.0, 110.0};&#xD;
+     double expected3 = 0.00593;&#xD;
+     double actual3 = statsCalculator.getPValue(data3a, data3b);&#xD;
+     assertEquals(expected3, actual3, 0.001);&#xD;
+&#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_e5pi4LRnEe23GrQ-bRKyhQ" name="testMeanValue" visibility="package" method="_fAdVgLRnEe23GrQ-bRKyhQ"/>
+        <ownedOperation xmi:id="_e5tNQLRnEe23GrQ-bRKyhQ" name="testGetTValue" visibility="package" method="_fAiOALRnEe23GrQ-bRKyhQ"/>
+        <ownedOperation xmi:id="_e5ubYbRnEe23GrQ-bRKyhQ" name="testGetPValue" visibility="package" method="_fAiOAbRnEe23GrQ-bRKyhQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_e6a-8LRnEe23GrQ-bRKyhQ" name="DataFetchTest" visibility="package">
+        <ownedAttribute xmi:id="_fAWn0LRnEe23GrQ-bRKyhQ" name="db" visibility="package" type="_e56BkLRnEe23GrQ-bRKyhQ" association="_fAvCVLRnEe23GrQ-bRKyhQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_fAWn0bRnEe23GrQ-bRKyhQ" value="new MySQLAccess()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAmfcLRnEe23GrQ-bRKyhQ" name="allData" specification="_e6cNELRnEe23GrQ-bRKyhQ">
+          <language>java</language>
+          <body>List&lt;String> expectedDate = new LinkedList&lt;String>();&#xD;
+		List&lt;String> expectedValue = new LinkedList&lt;String>();&#xD;
+		List&lt;String> expectedIndex = new LinkedList&lt;String>();&#xD;
+		&#xD;
+		expectedDate.add(&quot;Feb-98&quot;);&#xD;
+		expectedDate.add(&quot;Feb-98&quot;);&#xD;
+		expectedDate.add(&quot;Feb-98&quot;);&#xD;
+		expectedDate.add(&quot;Mar-98&quot;);&#xD;
+		expectedDate.add(&quot;Mar-98&quot;);&#xD;
+		expectedDate.add(&quot;Mar-98&quot;);&#xD;
+		&#xD;
+		expectedValue.add(&quot;54.9&quot;);&#xD;
+		expectedValue.add(&quot;46.8&quot;);&#xD;
+		expectedValue.add(&quot;77.4&quot;);&#xD;
+		expectedValue.add(&quot;55&quot;);&#xD;
+		expectedValue.add(&quot;46.8&quot;);&#xD;
+		expectedValue.add(&quot;77.4&quot;);&#xD;
+		&#xD;
+		expectedIndex.add(&quot;Total (house and land)&quot;);&#xD;
+		expectedIndex.add(&quot;House only&quot;);&#xD;
+		expectedIndex.add(&quot;Land only&quot;);&#xD;
+		expectedIndex.add(&quot;Total (house and land)&quot;);&#xD;
+		expectedIndex.add(&quot;House only&quot;);&#xD;
+		expectedIndex.add(&quot;Land only&quot;);&#xD;
+		&#xD;
+		Map&lt;String, List&lt;HousingPriceData>> data  = new HashMap&lt;>();&#xD;
+		db.readDataBase(&quot;Ontario&quot;, &quot;Feb-98&quot;, &quot;Mar-98&quot;);&#xD;
+		data = db.getHousingDataMap();&#xD;
+		&#xD;
+		for (Map.Entry&lt;String, List&lt;HousingPriceData>> entry : data.entrySet()) {&#xD;
+			List&lt;HousingPriceData> dataList = entry.getValue();&#xD;
+			int i = 0;&#xD;
+			for (HousingPriceData housingPriceData : dataList) {&#xD;
+				&#xD;
+				assertEquals(expectedDate.get(i), housingPriceData.getRefDate());&#xD;
+				assertEquals(&quot;Ontario&quot;, housingPriceData.getGeo());&#xD;
+				assertEquals(expectedIndex.get(i), housingPriceData.getIndexType());&#xD;
+				assertEquals(expectedValue.get(i), housingPriceData.getValue());		&#xD;
+				i++;&#xD;
+			}   &#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAmfcbRnEe23GrQ-bRKyhQ" name="containsGEO" specification="_e6eCQrRnEe23GrQ-bRKyhQ">
+          <language>java</language>
+          <body>Map&lt;String, List&lt;HousingPriceData>> data  = new HashMap&lt;>();&#xD;
+		db.readDataBase(&quot;Canada&quot;, &quot;Feb-98&quot;, &quot;Mar-98&quot;);&#xD;
+		data = db.getHousingDataMap();&#xD;
+		&#xD;
+		assertTrue(data.containsKey(&quot;Canada&quot;));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAmfcrRnEe23GrQ-bRKyhQ" name="containsGEONot" specification="_e6fQYrRnEe23GrQ-bRKyhQ">
+          <language>java</language>
+          <body>Map&lt;String, List&lt;HousingPriceData>> data  = new HashMap&lt;>();&#xD;
+		db.readDataBase(&quot;Canada&quot;, &quot;Feb-98&quot;, &quot;Mar-98&quot;);&#xD;
+		data = db.getHousingDataMap();&#xD;
+		&#xD;
+		assertTrue(!data.containsKey(&quot;Ontario&quot;));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAmfc7RnEe23GrQ-bRKyhQ" name="containsFirstDate" specification="_e6hFkLRnEe23GrQ-bRKyhQ">
+          <language>java</language>
+          <body>Map&lt;String, List&lt;HousingPriceData>> data  = new HashMap&lt;>();&#xD;
+		db.readDataBase(&quot;Canada&quot;, &quot;Feb-98&quot;, &quot;Mar-98&quot;);&#xD;
+		data = db.getHousingDataMap();&#xD;
+		&#xD;
+		boolean hasDate = false;&#xD;
+		&#xD;
+		&#xD;
+		for (Map.Entry&lt;String, List&lt;HousingPriceData>> entry : data.entrySet()) {&#xD;
+			List&lt;HousingPriceData> dataList = entry.getValue();&#xD;
+			for (HousingPriceData housingPriceData : dataList) {&#xD;
+				&#xD;
+				if(housingPriceData.getRefDate().equals(&quot;Feb-98&quot;)) {&#xD;
+					hasDate = true;&#xD;
+				}&#xD;
+			}   &#xD;
+		}&#xD;
+		&#xD;
+		assertTrue(hasDate);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAmfdLRnEe23GrQ-bRKyhQ" name="containsLastDate" specification="_e6iTsLRnEe23GrQ-bRKyhQ">
+          <language>java</language>
+          <body>Map&lt;String, List&lt;HousingPriceData>> data  = new HashMap&lt;>();&#xD;
+		db.readDataBase(&quot;Canada&quot;, &quot;Feb-98&quot;, &quot;Mar-98&quot;);&#xD;
+		data = db.getHousingDataMap();&#xD;
+		&#xD;
+		boolean hasDate = false;&#xD;
+		&#xD;
+		&#xD;
+		for (Map.Entry&lt;String, List&lt;HousingPriceData>> entry : data.entrySet()) {&#xD;
+			List&lt;HousingPriceData> dataList = entry.getValue();&#xD;
+			for (HousingPriceData housingPriceData : dataList) {&#xD;
+				&#xD;
+				if(housingPriceData.getRefDate().equals(&quot;Mar-98&quot;)) {&#xD;
+					hasDate = true;&#xD;
+				}&#xD;
+			}   &#xD;
+		}&#xD;
+		&#xD;
+		assertTrue(hasDate);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fAmfdbRnEe23GrQ-bRKyhQ" name="containsBetweenDate" specification="_e6kI4LRnEe23GrQ-bRKyhQ">
+          <language>java</language>
+          <body>Map&lt;String, List&lt;HousingPriceData>> data  = new HashMap&lt;>();&#xD;
+		db.readDataBase(&quot;Canada&quot;, &quot;Feb-98&quot;, &quot;Jun-98&quot;);&#xD;
+		data = db.getHousingDataMap();&#xD;
+		&#xD;
+		boolean hasDate = false;&#xD;
+		&#xD;
+		&#xD;
+		for (Map.Entry&lt;String, List&lt;HousingPriceData>> entry : data.entrySet()) {&#xD;
+			List&lt;HousingPriceData> dataList = entry.getValue();&#xD;
+			for (HousingPriceData housingPriceData : dataList) {&#xD;
+				&#xD;
+				if(housingPriceData.getRefDate().equals(&quot;May-98&quot;)) {&#xD;
+					hasDate = true;&#xD;
+				}&#xD;
+			}   &#xD;
+		}&#xD;
+		&#xD;
+		assertTrue(hasDate);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_e6cNELRnEe23GrQ-bRKyhQ" name="allData" visibility="package" method="_fAmfcLRnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ"/>
+        <ownedOperation xmi:id="_e6eCQrRnEe23GrQ-bRKyhQ" name="containsGEO" visibility="package" method="_fAmfcbRnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ"/>
+        <ownedOperation xmi:id="_e6fQYrRnEe23GrQ-bRKyhQ" name="containsGEONot" visibility="package" method="_fAmfcrRnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ"/>
+        <ownedOperation xmi:id="_e6hFkLRnEe23GrQ-bRKyhQ" name="containsFirstDate" visibility="package" method="_fAmfc7RnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ"/>
+        <ownedOperation xmi:id="_e6iTsLRnEe23GrQ-bRKyhQ" name="containsLastDate" visibility="package" method="_fAmfdLRnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ"/>
+        <ownedOperation xmi:id="_e6kI4LRnEe23GrQ-bRKyhQ" name="containsBetweenDate" visibility="package" method="_fAmfdbRnEe23GrQ-bRKyhQ" raisedException="_fAHXQLRnEe23GrQ-bRKyhQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_fAvCVLRnEe23GrQ-bRKyhQ" name="" memberEnd="_fAvCVbRnEe23GrQ-bRKyhQ _fAWn0LRnEe23GrQ-bRKyhQ">
+        <ownedEnd xmi:id="_fAvCVbRnEe23GrQ-bRKyhQ" name="" type="_e6a-8LRnEe23GrQ-bRKyhQ" association="_fAvCVLRnEe23GrQ-bRKyhQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_PHltcLRpEe23GrQ-bRKyhQ" name="" memberEnd="_PHmUgLRpEe23GrQ-bRKyhQ _PHmUg7RpEe23GrQ-bRKyhQ">
+        <ownedEnd xmi:id="_PHmUgLRpEe23GrQ-bRKyhQ" name="statsCalculatorTest" type="_e5oUwLRnEe23GrQ-bRKyhQ" association="_PHltcLRpEe23GrQ-bRKyhQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PHmUgbRpEe23GrQ-bRKyhQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PHmUgrRpEe23GrQ-bRKyhQ" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Tb2_ALRpEe23GrQ-bRKyhQ" name="" memberEnd="_Tb2_AbRpEe23GrQ-bRKyhQ _Tb2_BLRpEe23GrQ-bRKyhQ">
+        <ownedEnd xmi:id="_Tb2_AbRpEe23GrQ-bRKyhQ" name="statsCalculatorTest" type="_e5oUwLRnEe23GrQ-bRKyhQ" association="_Tb2_ALRpEe23GrQ-bRKyhQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tb2_ArRpEe23GrQ-bRKyhQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tb2_A7RpEe23GrQ-bRKyhQ" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_e5ApsLRnEe23GrQ-bRKyhQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_e5BQwLRnEe23GrQ-bRKyhQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_e_tHkLRnEe23GrQ-bRKyhQ" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_e_u8wbRnEe23GrQ-bRKyhQ" name="List"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_e_wK4LRnEe23GrQ-bRKyhQ" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e_9mQLRnEe23GrQ-bRKyhQ" name="Arrays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fAB3sLRnEe23GrQ-bRKyhQ" name="LinkedList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_e5KasLRnEe23GrQ-bRKyhQ" name="sql">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_e_xZALRnEe23GrQ-bRKyhQ" name="Connection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e_ynILRnEe23GrQ-bRKyhQ" name="DriverManager"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_e_z1QbRnEe23GrQ-bRKyhQ" name="PreparedStatement"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_e_0cUbRnEe23GrQ-bRKyhQ" name="ResultSet"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e_1qcLRnEe23GrQ-bRKyhQ" name="SQLException"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_e_2RgLRnEe23GrQ-bRKyhQ" name="Statement"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_fAGwMLRnEe23GrQ-bRKyhQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_fAHXQLRnEe23GrQ-bRKyhQ" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_etfWMLRnEe23GrQ-bRKyhQ">
+      <eAnnotations xmi:id="_etjAkLRnEe23GrQ-bRKyhQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_etn5ELRnEe23GrQ-bRKyhQ" base_Package="_ee6HoLRnEe23GrQ-bRKyhQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e5r_ILRnEe23GrQ-bRKyhQ" base_Element="_e5pi4LRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_e5smMLRnEe23GrQ-bRKyhQ" base_Element="_e5pi4LRnEe23GrQ-bRKyhQ">
+    <annotations xmi:id="_e5smMbRnEe23GrQ-bRKyhQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e5tNQbRnEe23GrQ-bRKyhQ" base_Element="_e5tNQLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_e5t0ULRnEe23GrQ-bRKyhQ" base_Element="_e5tNQLRnEe23GrQ-bRKyhQ">
+    <annotations xmi:id="_e5ubYLRnEe23GrQ-bRKyhQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e5vCcLRnEe23GrQ-bRKyhQ" base_Element="_e5ubYbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_e5vCcbRnEe23GrQ-bRKyhQ" base_Element="_e5ubYbRnEe23GrQ-bRKyhQ">
+    <annotations xmi:id="_e5vCcrRnEe23GrQ-bRKyhQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_e5z68LRnEe23GrQ-bRKyhQ" base_Element="_e5zT4LRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Generics xmi:id="_e6AvQLRnEe23GrQ-bRKyhQ" genericsValue="String, List&lt;HousingPriceData>" base_Element="_e5_hILRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Array xmi:id="_e6DylbRnEe23GrQ-bRKyhQ" dimensions="1" base_Element="_e6DLgLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e6FAsLRnEe23GrQ-bRKyhQ" base_Element="_e6DLgLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_e6FnwLRnEe23GrQ-bRKyhQ" base_Element="_e6DLgLRnEe23GrQ-bRKyhQ">
+    <annotations xmi:id="_e6FnwbRnEe23GrQ-bRKyhQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e6X7oLRnEe23GrQ-bRKyhQ" base_Element="_e6XUkbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_e6YisLRnEe23GrQ-bRKyhQ" base_Element="_e6XUkbRnEe23GrQ-bRKyhQ">
+    <annotations xmi:id="_e6YisbRnEe23GrQ-bRKyhQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e6dbMLRnEe23GrQ-bRKyhQ" base_Element="_e6cNELRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_e6eCQLRnEe23GrQ-bRKyhQ" base_Element="_e6cNELRnEe23GrQ-bRKyhQ">
+    <annotations xmi:id="_e6eCQbRnEe23GrQ-bRKyhQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e6epULRnEe23GrQ-bRKyhQ" base_Element="_e6eCQrRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_e6fQYLRnEe23GrQ-bRKyhQ" base_Element="_e6eCQrRnEe23GrQ-bRKyhQ">
+    <annotations xmi:id="_e6fQYbRnEe23GrQ-bRKyhQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e6f3cLRnEe23GrQ-bRKyhQ" base_Element="_e6fQYrRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_e6gegLRnEe23GrQ-bRKyhQ" base_Element="_e6fQYrRnEe23GrQ-bRKyhQ">
+    <annotations xmi:id="_e6gegbRnEe23GrQ-bRKyhQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e6hsoLRnEe23GrQ-bRKyhQ" base_Element="_e6hFkLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_e6hsobRnEe23GrQ-bRKyhQ" base_Element="_e6hFkLRnEe23GrQ-bRKyhQ">
+    <annotations xmi:id="_e6hsorRnEe23GrQ-bRKyhQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e6i6wLRnEe23GrQ-bRKyhQ" base_Element="_e6iTsLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_e6jh0LRnEe23GrQ-bRKyhQ" base_Element="_e6iTsLRnEe23GrQ-bRKyhQ">
+    <annotations xmi:id="_e6jh0bRnEe23GrQ-bRKyhQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e6kI4bRnEe23GrQ-bRKyhQ" base_Element="_e6kI4LRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Annotations xmi:id="_e6kv8LRnEe23GrQ-bRKyhQ" base_Element="_e6kI4LRnEe23GrQ-bRKyhQ">
+    <annotations xmi:id="_e6kv8bRnEe23GrQ-bRKyhQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_e_r5cLRnEe23GrQ-bRKyhQ" base_Element="_e_qrULRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_e_sggLRnEe23GrQ-bRKyhQ" base_Element="_e_r5cbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_e_u8wLRnEe23GrQ-bRKyhQ" base_Element="_e_tHkLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_e_vj0LRnEe23GrQ-bRKyhQ" base_Element="_e_u8wbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_e_wx8LRnEe23GrQ-bRKyhQ" base_Element="_e_wK4LRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_e_yAELRnEe23GrQ-bRKyhQ" base_Element="_e_xZALRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_e_z1QLRnEe23GrQ-bRKyhQ" base_Element="_e_ynILRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_e_0cULRnEe23GrQ-bRKyhQ" base_Element="_e_z1QbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_e_1DYLRnEe23GrQ-bRKyhQ" base_Element="_e_0cUbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_e_1qcbRnEe23GrQ-bRKyhQ" base_Element="_e_1qcLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_e_24kLRnEe23GrQ-bRKyhQ" base_Element="_e_2RgLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_e_-NULRnEe23GrQ-bRKyhQ" base_Element="_e_9mQLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_fAACgLRnEe23GrQ-bRKyhQ" base_Element="_e__bcLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_fADF0LRnEe23GrQ-bRKyhQ" base_Element="_fAB3sLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_fAH-ULRnEe23GrQ-bRKyhQ" base_Element="_fAHXQLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Generics xmi:id="_fALBoLRnEe23GrQ-bRKyhQ" genericsValue="String, List&lt;HousingPriceData>" base_Element="_fAJzgbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Array xmi:id="_fALBpbRnEe23GrQ-bRKyhQ" base_Element="_fALBobRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Generics xmi:id="_fAMPwLRnEe23GrQ-bRKyhQ" genericsValue="HousingPriceData" base_Element="_fALBorRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fAQhMLRnEe23GrQ-bRKyhQ" base_Element="_fAP6IbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fARIQbRnEe23GrQ-bRKyhQ" base_Element="_fAQhMbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fARvUbRnEe23GrQ-bRKyhQ" base_Element="_fARIQrRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fASWYbRnEe23GrQ-bRKyhQ" base_Element="_fARvUrRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fAS9cLRnEe23GrQ-bRKyhQ" base_Element="_fASWYrRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fAS9c7RnEe23GrQ-bRKyhQ" base_Element="_fAS9cbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Generics xmi:id="_fAULkLRnEe23GrQ-bRKyhQ" genericsValue="HousingPriceData" base_Element="_fATkgLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fAULkrRnEe23GrQ-bRKyhQ" base_Element="_fATkgLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Array xmi:id="_fAVZsbRnEe23GrQ-bRKyhQ" base_Element="_fAUyobRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_fAVZsrRnEe23GrQ-bRKyhQ" base_Property="_fAUyobRnEe23GrQ-bRKyhQ" siblings="_fAnGgLRnEe23GrQ-bRKyhQ" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fAWAwLRnEe23GrQ-bRKyhQ" base_Element="_fAUyobRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fAWAwrRnEe23GrQ-bRKyhQ" base_Element="_fAWAwbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fAWn0rRnEe23GrQ-bRKyhQ" base_Element="_fAWn0LRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_fAntkLRnEe23GrQ-bRKyhQ" base_Property="_fAnGgLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fAntkbRnEe23GrQ-bRKyhQ" base_Element="_fAnGgLRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_fAtNILRnEe23GrQ-bRKyhQ" base_Element="_fAsmELRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_fAt0MLRnEe23GrQ-bRKyhQ" base_Element="_fAtNIbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_fAubQLRnEe23GrQ-bRKyhQ" base_Element="_fAt0MbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_fAvCULRnEe23GrQ-bRKyhQ" base_Element="_fAubQbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_fAvCU7RnEe23GrQ-bRKyhQ" base_Element="_fAvCUbRnEe23GrQ-bRKyhQ"/>
+  <UMLLabProfile:Reference xmi:id="_fAwQcLRnEe23GrQ-bRKyhQ" base_Element="_fAvCVLRnEe23GrQ-bRKyhQ"/>
+</xmi:XMI>

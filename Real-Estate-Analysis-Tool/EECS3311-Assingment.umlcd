@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ehpSkLRnEe23GrQ-bRKyhQ">
+  <modelElement href="EECS3311-Assingment.uml#_ee6HoLRnEe23GrQ-bRKyhQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fLDb8LRnEe23GrQ-bRKyhQ" sourceAnchor="276.0,106.0" targetAnchor="0.0,374.0" target="_fLdEmrRnEe23GrQ-bRKyhQ" source="_fLEDCLRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_fAvCVLRnEe23GrQ-bRKyhQ"/>
+    <stereotypes xmi:id="_fLEDALRnEe23GrQ-bRKyhQ" name="Reference">
+      <modelElement href="EECS3311-Assingment.uml#_fAwQcLRnEe23GrQ-bRKyhQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_fLEDAbRnEe23GrQ-bRKyhQ" text="">
+      <visualProperties xmi:id="_fUKUoLRnEe23GrQ-bRKyhQ" position="-9.0,-29.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_fLEDArRnEe23GrQ-bRKyhQ" aggregationKind="NONE" name="">
+      <modelElement href="EECS3311-Assingment.uml#_fAvCVbRnEe23GrQ-bRKyhQ"/>
+      <visualProperties xmi:id="_fUJtkLRnEe23GrQ-bRKyhQ" position="15.0,2.0"/>
+      <visibility xmi:id="_fLEDA7RnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fLEDBLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_fLEDBbRnEe23GrQ-bRKyhQ" aggregationKind="NONE" name="db" navigable="true">
+      <modelElement href="EECS3311-Assingment.uml#_fAWn0LRnEe23GrQ-bRKyhQ"/>
+      <visualProperties xmi:id="_fUK7sLRnEe23GrQ-bRKyhQ" position="-63.0,2.0"/>
+      <visibility xmi:id="_fLEDBrRnEe23GrQ-bRKyhQ" label="~"/>
+      <cardinality xmi:id="_fLEDB7RnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_fLQQQLRnEe23GrQ-bRKyhQ" sourceAnchor="359.0,0.0" targetAnchor="381.0,100.0" dashed="true" superClass="_fLVv0LRnEe23GrQ-bRKyhQ" subClass="_fLdEmrRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_e_574LRnEe23GrQ-bRKyhQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fLaoULRnEe23GrQ-bRKyhQ" source="_fLdEmrRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_fAsmELRnEe23GrQ-bRKyhQ"/>
+    <stereotypes xmi:id="_fLaoUbRnEe23GrQ-bRKyhQ" name="Reference">
+      <modelElement href="EECS3311-Assingment.uml#_fAtNILRnEe23GrQ-bRKyhQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_fLaoUrRnEe23GrQ-bRKyhQ" text=""/>
+    <sourceRole xmi:id="_fLaoU7RnEe23GrQ-bRKyhQ" aggregationKind="NONE" name="">
+      <modelElement href="EECS3311-Assingment.uml#_fAsmEbRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLaoVLRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fLaoVbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_fLaoVrRnEe23GrQ-bRKyhQ" aggregationKind="NONE" name="connect" navigable="true">
+      <modelElement href="EECS3311-Assingment.uml#_fAP6IbRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLaoV7RnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fLaoWLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fLbPYLRnEe23GrQ-bRKyhQ" source="_fLdEmrRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_fAtNIbRnEe23GrQ-bRKyhQ"/>
+    <stereotypes xmi:id="_fLbPYbRnEe23GrQ-bRKyhQ" name="Reference">
+      <modelElement href="EECS3311-Assingment.uml#_fAt0MLRnEe23GrQ-bRKyhQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_fLbPYrRnEe23GrQ-bRKyhQ" text=""/>
+    <sourceRole xmi:id="_fLbPY7RnEe23GrQ-bRKyhQ" aggregationKind="NONE" name="">
+      <modelElement href="EECS3311-Assingment.uml#_fAtNIrRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLbPZLRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fLbPZbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_fLbPZrRnEe23GrQ-bRKyhQ" aggregationKind="NONE" name="statement" navigable="true">
+      <modelElement href="EECS3311-Assingment.uml#_fAQhMbRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLbPZ7RnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fLbPaLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fLbPabRnEe23GrQ-bRKyhQ" source="_fLdEmrRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_fAt0MbRnEe23GrQ-bRKyhQ"/>
+    <stereotypes xmi:id="_fLbParRnEe23GrQ-bRKyhQ" name="Reference">
+      <modelElement href="EECS3311-Assingment.uml#_fAubQLRnEe23GrQ-bRKyhQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_fLbPa7RnEe23GrQ-bRKyhQ" text=""/>
+    <sourceRole xmi:id="_fLbPbLRnEe23GrQ-bRKyhQ" aggregationKind="NONE" name="">
+      <modelElement href="EECS3311-Assingment.uml#_fAt0MrRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLbPbbRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fLbPbrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_fLbPb7RnEe23GrQ-bRKyhQ" aggregationKind="NONE" name="resultSet" navigable="true">
+      <modelElement href="EECS3311-Assingment.uml#_fARIQrRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLbPcLRnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fLbPcbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fLcdgLRnEe23GrQ-bRKyhQ" source="_fLdEmrRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_fAubQbRnEe23GrQ-bRKyhQ"/>
+    <stereotypes xmi:id="_fLcdgbRnEe23GrQ-bRKyhQ" name="Reference">
+      <modelElement href="EECS3311-Assingment.uml#_fAvCULRnEe23GrQ-bRKyhQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_fLcdgrRnEe23GrQ-bRKyhQ" text=""/>
+    <sourceRole xmi:id="_fLcdg7RnEe23GrQ-bRKyhQ" aggregationKind="NONE" name="">
+      <modelElement href="EECS3311-Assingment.uml#_fAubQrRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLdEkLRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fLdEkbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_fLdEkrRnEe23GrQ-bRKyhQ" aggregationKind="NONE" name="housingDataMap" navigable="true">
+      <modelElement href="EECS3311-Assingment.uml#_fATkgLRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLdEk7RnEe23GrQ-bRKyhQ" label="#"/>
+      <cardinality xmi:id="_fLdElLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <qualifierHelper xmi:id="_fLdElbRnEe23GrQ-bRKyhQ">
+        <qualifiers xmi:id="_fLdElrRnEe23GrQ-bRKyhQ">
+          <modelElement href="EECS3311-Assingment.uml#_fAUyoLRnEe23GrQ-bRKyhQ"/>
+          <visibility xmi:id="_fLdEl7RnEe23GrQ-bRKyhQ" label="+"/>
+          <cardinality xmi:id="_fLdEmLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+          <type xmi:id="_fLdEmbRnEe23GrQ-bRKyhQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </qualifiers>
+      </qualifierHelper>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fMDhgLRnEe23GrQ-bRKyhQ" sourceAnchor="532.0,37.0" targetAnchor="0.0,50.0" target="_fLVv0LRnEe23GrQ-bRKyhQ" source="_fMIaALRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_fAvCUbRnEe23GrQ-bRKyhQ"/>
+    <stereotypes xmi:id="_fMEvorRnEe23GrQ-bRKyhQ" name="Reference">
+      <modelElement href="EECS3311-Assingment.uml#_fAvCU7RnEe23GrQ-bRKyhQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_fMEIkLRnEe23GrQ-bRKyhQ" text="">
+      <visualProperties xmi:id="_fUMJ0LRnEe23GrQ-bRKyhQ" position="-34.0,-27.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_fMEvoLRnEe23GrQ-bRKyhQ" aggregationKind="NONE" name="">
+      <modelElement href="EECS3311-Assingment.uml#_fAvCUrRnEe23GrQ-bRKyhQ"/>
+      <visualProperties xmi:id="_fULiwLRnEe23GrQ-bRKyhQ" position="9.0,-49.0"/>
+      <visibility xmi:id="_fMHL4bRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fMHL4LRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_fMEvobRnEe23GrQ-bRKyhQ" aggregationKind="NONE" name="dbInterface" navigable="true">
+      <modelElement href="EECS3311-Assingment.uml#_fAWAwbRnEe23GrQ-bRKyhQ"/>
+      <visualProperties xmi:id="_fUMJ0bRnEe23GrQ-bRKyhQ" position="-110.0,-51.0"/>
+      <visibility xmi:id="_fMHL47RnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fMHL4rRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PHuQULRpEe23GrQ-bRKyhQ" sourceAnchor="112.0,0.0" targetAnchor="15.0,100.0" target="_fLVv0LRnEe23GrQ-bRKyhQ" source="_fJ3wMLRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_PHltcLRpEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_PHuQUbRpEe23GrQ-bRKyhQ"/>
+    <nameVisual xmi:id="_PHuQUrRpEe23GrQ-bRKyhQ" text="">
+      <visualProperties xmi:id="_PL7a4LRpEe23GrQ-bRKyhQ" position="-18.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PHuQU7RpEe23GrQ-bRKyhQ" aggregationKind="NONE" name="statsCalculatorTest">
+      <modelElement href="EECS3311-Assingment.uml#_PHmUgLRpEe23GrQ-bRKyhQ"/>
+      <visualProperties xmi:id="_PL6MwLRpEe23GrQ-bRKyhQ" position="4.0,-52.0"/>
+      <visibility xmi:id="_PHuQVLRpEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_PHuQVbRpEe23GrQ-bRKyhQ" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PHuQVrRpEe23GrQ-bRKyhQ" aggregationKind="NONE" name="dbInterface" navigable="true">
+      <modelElement href="EECS3311-Assingment.uml#_PHmUg7RpEe23GrQ-bRKyhQ"/>
+      <visualProperties xmi:id="_PL7a4bRpEe23GrQ-bRKyhQ" position="10.0,-6.0"/>
+      <visibility xmi:id="_PHuQV7RpEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_PHuQWLRpEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Tb5bQLRpEe23GrQ-bRKyhQ" sourceAnchor="0.0,65.0" targetAnchor="532.0,278.0" target="_fMIaALRnEe23GrQ-bRKyhQ" source="_fJ3wMLRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_Tb2_ALRpEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_Tb5bQbRpEe23GrQ-bRKyhQ"/>
+    <nameVisual xmi:id="_Tb5bQrRpEe23GrQ-bRKyhQ" text="">
+      <visualProperties xmi:id="_Tf9b4LRpEe23GrQ-bRKyhQ" position="46.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Tb5bQ7RpEe23GrQ-bRKyhQ" aggregationKind="NONE" name="statsCalculatorTest">
+      <modelElement href="EECS3311-Assingment.uml#_Tb2_AbRpEe23GrQ-bRKyhQ"/>
+      <visualProperties xmi:id="_Tf800LRpEe23GrQ-bRKyhQ" position="-159.0,-60.0"/>
+      <visibility xmi:id="_Tb5bRLRpEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_Tb5bRbRpEe23GrQ-bRKyhQ" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Tb5bRrRpEe23GrQ-bRKyhQ" aggregationKind="NONE" name="studentTTest" navigable="true">
+      <modelElement href="EECS3311-Assingment.uml#_Tb2_BLRpEe23GrQ-bRKyhQ"/>
+      <visualProperties xmi:id="_Tf-C8LRpEe23GrQ-bRKyhQ" position="2.0,-1.9999999999999432"/>
+      <visibility xmi:id="_Tb5bR7RpEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_Tb5bSLRpEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_xA9boLRpEe23GrQ-bRKyhQ" sourceAnchor="278.0,472.0" targetAnchor="48.0,0.0" client="_fLdEmrRnEe23GrQ-bRKyhQ" supplier="_fLN0ALRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_xA80kLRpEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_xA9bobRpEe23GrQ-bRKyhQ"/>
+    <nameVisual xmi:id="_xA9borRpEe23GrQ-bRKyhQ" text=""/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fMIaALRnEe23GrQ-bRKyhQ" name="StatsCalculator" associationsIn="_Tb5bQLRpEe23GrQ-bRKyhQ" associationsOut="_fMDhgLRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_e6PYwLRnEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_fMJBELRnEe23GrQ-bRKyhQ" position="-313.0,-629.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fMJBEbRnEe23GrQ-bRKyhQ" label="+"/>
+    <attributes xmi:id="_fMJBErRnEe23GrQ-bRKyhQ" name="data1">
+      <modelElement href="EECS3311-Assingment.uml#_fAUyobRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fMJBE7RnEe23GrQ-bRKyhQ" name="Array">
+        <modelElement href="EECS3311-Assingment.uml#_fAVZsbRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fMJBFLRnEe23GrQ-bRKyhQ" name="MultiDeclaration">
+        <modelElement href="EECS3311-Assingment.uml#_fAVZsrRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fMJBFbRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_fAWAwLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fMJBFrRnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fMJBF7RnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_fMJBGLRnEe23GrQ-bRKyhQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fMJBGbRnEe23GrQ-bRKyhQ" name="dbInterface">
+      <modelElement href="EECS3311-Assingment.uml#_fAWAwbRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fMJBGrRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_fAWAwrRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fMJBG7RnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fMJBHLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fMJBHbRnEe23GrQ-bRKyhQ" name="DbInterface">
+        <modelElement href="EECS3311-Assingment.uml#_e5yFwLRnEe23GrQ-bRKyhQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fMJBHrRnEe23GrQ-bRKyhQ" name="data2">
+      <modelElement href="EECS3311-Assingment.uml#_fAnGgLRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fMJBH7RnEe23GrQ-bRKyhQ" name="MultiDeclaration">
+        <modelElement href="EECS3311-Assingment.uml#_fAntkLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fMJBILRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_fAntkbRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fMJBIbRnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fMJBIrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fMJBI7RnEe23GrQ-bRKyhQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fMJBJLRnEe23GrQ-bRKyhQ" name="setData1">
+      <modelElement href="EECS3311-Assingment.uml#_e6RN8LRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fMJBJbRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fMJBJrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_fMJBJ7RnEe23GrQ-bRKyhQ" name="geo1">
+        <modelElement href="EECS3311-Assingment.uml#_e6RN8bRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBKLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fMJBKbRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fMJBKrRnEe23GrQ-bRKyhQ" name="date1">
+        <modelElement href="EECS3311-Assingment.uml#_e6R1ALRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBK7RnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fMJBLLRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fMJBLbRnEe23GrQ-bRKyhQ" name="date2">
+        <modelElement href="EECS3311-Assingment.uml#_e6R1AbRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBLrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fMJBL7RnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fMJBMLRnEe23GrQ-bRKyhQ" name="setData2">
+      <modelElement href="EECS3311-Assingment.uml#_e6ScELRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fMJBMbRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fMJBMrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_fMJBM7RnEe23GrQ-bRKyhQ" name="geo1">
+        <modelElement href="EECS3311-Assingment.uml#_e6ScEbRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBNLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fMJBNbRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fMJBNrRnEe23GrQ-bRKyhQ" name="date1">
+        <modelElement href="EECS3311-Assingment.uml#_e6ScErRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBN7RnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fMJBOLRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fMJBObRnEe23GrQ-bRKyhQ" name="date2">
+        <modelElement href="EECS3311-Assingment.uml#_e6ScE7RnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBOrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fMJBO7RnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fMJBPLRnEe23GrQ-bRKyhQ" name="getMeanValue">
+      <modelElement href="EECS3311-Assingment.uml#_e6TDILRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fMJBPbRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fMJBPrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fMJBP7RnEe23GrQ-bRKyhQ">
+        <modelElement href="EECS3311-Assingment.uml#_e6TqMbRnEe23GrQ-bRKyhQ"/>
+        <type xmi:id="_fMJBQLRnEe23GrQ-bRKyhQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fMJBQbRnEe23GrQ-bRKyhQ" name="data">
+        <modelElement href="EECS3311-Assingment.uml#_e6TqMLRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBQrRnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_fMJBQ7RnEe23GrQ-bRKyhQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fMJBRLRnEe23GrQ-bRKyhQ" name="getDegreeOfFreedom">
+      <modelElement href="EECS3311-Assingment.uml#_e6URQLRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fMJBRbRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fMJBRrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fMJBR7RnEe23GrQ-bRKyhQ">
+        <modelElement href="EECS3311-Assingment.uml#_e6URQrRnEe23GrQ-bRKyhQ"/>
+        <type xmi:id="_fMJBSLRnEe23GrQ-bRKyhQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fMJBSbRnEe23GrQ-bRKyhQ" name="data1">
+        <modelElement href="EECS3311-Assingment.uml#_e6URQbRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBSrRnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_fMJBS7RnEe23GrQ-bRKyhQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fMJBTLRnEe23GrQ-bRKyhQ" name="getTValue">
+      <modelElement href="EECS3311-Assingment.uml#_e6U4ULRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fMJBTbRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fMJBTrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fMJBT7RnEe23GrQ-bRKyhQ">
+        <modelElement href="EECS3311-Assingment.uml#_e6VfYLRnEe23GrQ-bRKyhQ"/>
+        <type xmi:id="_fMJBULRnEe23GrQ-bRKyhQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fMJBUbRnEe23GrQ-bRKyhQ" name="data1">
+        <modelElement href="EECS3311-Assingment.uml#_e6U4UbRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBUrRnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_fMJBU7RnEe23GrQ-bRKyhQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fMJBVLRnEe23GrQ-bRKyhQ" name="data2">
+        <modelElement href="EECS3311-Assingment.uml#_e6U4UrRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBVbRnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_fMJBVrRnEe23GrQ-bRKyhQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fMJBV7RnEe23GrQ-bRKyhQ" name="getPValue">
+      <modelElement href="EECS3311-Assingment.uml#_e6WGcLRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fMJBWLRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fMJBWbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fMJBWrRnEe23GrQ-bRKyhQ">
+        <modelElement href="EECS3311-Assingment.uml#_e6WtgbRnEe23GrQ-bRKyhQ"/>
+        <type xmi:id="_fMJBW7RnEe23GrQ-bRKyhQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fMJBXLRnEe23GrQ-bRKyhQ" name="data1">
+        <modelElement href="EECS3311-Assingment.uml#_e6WGcbRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBXbRnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_fMJBXrRnEe23GrQ-bRKyhQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fMJBX7RnEe23GrQ-bRKyhQ" name="data2">
+        <modelElement href="EECS3311-Assingment.uml#_e6WtgLRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBYLRnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_fMJBYbRnEe23GrQ-bRKyhQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fMJBYrRnEe23GrQ-bRKyhQ" name="toString">
+      <modelElement href="EECS3311-Assingment.uml#_e6XUkbRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fMJBY7RnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_e6X7oLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fMJBZLRnEe23GrQ-bRKyhQ" name="Annotations">
+        <modelElement href="EECS3311-Assingment.uml#_e6YisLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fMJBZbRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fMJBZrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fMJBZ7RnEe23GrQ-bRKyhQ">
+        <modelElement href="EECS3311-Assingment.uml#_e6XUkrRnEe23GrQ-bRKyhQ"/>
+        <type xmi:id="_fMJBaLRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_fMJBabRnEe23GrQ-bRKyhQ" name="StatsCalculator">
+      <modelElement href="EECS3311-Assingment.uml#_fAApkLRnEe23GrQ-bRKyhQ"/>
+      <keywords xmi:id="_fMJBarRnEe23GrQ-bRKyhQ" keyword="create"/>
+      <visibility xmi:id="_fMJBa7RnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fMJBbLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fMJBbbRnEe23GrQ-bRKyhQ">
+        <modelElement href="EECS3311-Assingment.uml#_fAAplLRnEe23GrQ-bRKyhQ"/>
+        <type xmi:id="_fMJBbrRnEe23GrQ-bRKyhQ" name="StatsCalculator">
+          <modelElement href="EECS3311-Assingment.uml#_e6PYwLRnEe23GrQ-bRKyhQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fMJBb7RnEe23GrQ-bRKyhQ" name="dbInterface">
+        <modelElement href="EECS3311-Assingment.uml#_fAApkbRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMJBcLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fMJBcbRnEe23GrQ-bRKyhQ" name="DbInterface">
+          <modelElement href="EECS3311-Assingment.uml#_e5yFwLRnEe23GrQ-bRKyhQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_fLVv0LRnEe23GrQ-bRKyhQ" name="DbInterface" associationsIn="_fMDhgLRnEe23GrQ-bRKyhQ _PHuQULRpEe23GrQ-bRKyhQ" subclassedBy="_fLQQQLRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_e5yFwLRnEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_fLVv0bRnEe23GrQ-bRKyhQ" position="600.0,-642.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fLVv0rRnEe23GrQ-bRKyhQ" label="+"/>
+    <operations xmi:id="_fLVv07RnEe23GrQ-bRKyhQ" name="getValuesFormGeoAndRange">
+      <modelElement href="EECS3311-Assingment.uml#_e5zT4LRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLVv1LRnEe23GrQ-bRKyhQ" name="Array">
+        <modelElement href="EECS3311-Assingment.uml#_e5z68LRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLVv1bRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fLVv1rRnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_fLVv17RnEe23GrQ-bRKyhQ">
+        <modelElement href="EECS3311-Assingment.uml#_e5zT5LRnEe23GrQ-bRKyhQ"/>
+        <type xmi:id="_fLVv2LRnEe23GrQ-bRKyhQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fLVv2bRnEe23GrQ-bRKyhQ" name="geo">
+        <modelElement href="EECS3311-Assingment.uml#_e5zT4bRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fLVv2rRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fLVv27RnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fLVv3LRnEe23GrQ-bRKyhQ" name="date1">
+        <modelElement href="EECS3311-Assingment.uml#_e5zT4rRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fLVv3bRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fLVv3rRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fLVv37RnEe23GrQ-bRKyhQ" name="date2">
+        <modelElement href="EECS3311-Assingment.uml#_e5zT47RnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fLVv4LRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fLVv4bRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fJ3wMLRnEe23GrQ-bRKyhQ" name="StatsCalculatorTest" associationsOut="_PHuQULRpEe23GrQ-bRKyhQ _Tb5bQLRpEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_e5oUwLRnEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_fJ4XQLRnEe23GrQ-bRKyhQ" position="503.0,-416.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fJ4XQbRnEe23GrQ-bRKyhQ" label="~"/>
+    <attributes xmi:id="_PHu3YLRpEe23GrQ-bRKyhQ" name="dbInterface">
+      <modelElement href="EECS3311-Assingment.uml#_PHmUg7RpEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_PHu3YbRpEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_PHu3YrRpEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_PHu3Y7RpEe23GrQ-bRKyhQ" name="DbInterface">
+        <modelElement href="EECS3311-Assingment.uml#_e5yFwLRnEe23GrQ-bRKyhQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Tb5bSbRpEe23GrQ-bRKyhQ" name="studentTTest">
+      <modelElement href="EECS3311-Assingment.uml#_Tb2_BLRpEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_Tb5bSrRpEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_Tb5bS7RpEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Tb5bTLRpEe23GrQ-bRKyhQ" name="StatsCalculator">
+        <modelElement href="EECS3311-Assingment.uml#_e6PYwLRnEe23GrQ-bRKyhQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fJ4XQrRnEe23GrQ-bRKyhQ" name="testMeanValue">
+      <modelElement href="EECS3311-Assingment.uml#_e5pi4LRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fJ4XQ7RnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_e5r_ILRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fJ4XRLRnEe23GrQ-bRKyhQ" name="Annotations">
+        <modelElement href="EECS3311-Assingment.uml#_e5smMLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fJ4XRbRnEe23GrQ-bRKyhQ" label="~"/>
+      <cardinality xmi:id="_fJ4XRrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_fJ4XR7RnEe23GrQ-bRKyhQ" name="testGetTValue">
+      <modelElement href="EECS3311-Assingment.uml#_e5tNQLRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fJ4XSLRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_e5tNQbRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fJ4XSbRnEe23GrQ-bRKyhQ" name="Annotations">
+        <modelElement href="EECS3311-Assingment.uml#_e5t0ULRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fJ4XSrRnEe23GrQ-bRKyhQ" label="~"/>
+      <cardinality xmi:id="_fJ4XS7RnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_fJ4XTLRnEe23GrQ-bRKyhQ" name="testGetPValue">
+      <modelElement href="EECS3311-Assingment.uml#_e5ubYbRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fJ4XTbRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_e5vCcLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fJ4XTrRnEe23GrQ-bRKyhQ" name="Annotations">
+        <modelElement href="EECS3311-Assingment.uml#_e5vCcbRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fJ4XT7RnEe23GrQ-bRKyhQ" label="~"/>
+      <cardinality xmi:id="_fJ4XULRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fLdEmrRnEe23GrQ-bRKyhQ" using="_xA9boLRpEe23GrQ-bRKyhQ" name="MySQLAccess" associationsIn="_fLDb8LRnEe23GrQ-bRKyhQ" associationsOut="_fLaoULRnEe23GrQ-bRKyhQ _fLbPYLRnEe23GrQ-bRKyhQ _fLbPabRnEe23GrQ-bRKyhQ _fLcdgLRnEe23GrQ-bRKyhQ" generalizations="_fLQQQLRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_e56BkLRnEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_fLdEm7RnEe23GrQ-bRKyhQ" position="622.0,-227.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fLdEnLRnEe23GrQ-bRKyhQ" label="+"/>
+    <attributes xmi:id="_fLdEnbRnEe23GrQ-bRKyhQ" defaultValue="null" name="connect">
+      <modelElement href="EECS3311-Assingment.uml#_fAP6IbRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLdEnrRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_fAQhMLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLdEn7RnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fLdEoLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fLdEobRnEe23GrQ-bRKyhQ" name="Connection">
+        <modelElement href="EECS3311-Assingment.uml#_e_xZALRnEe23GrQ-bRKyhQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fLdEorRnEe23GrQ-bRKyhQ" defaultValue="null" name="statement">
+      <modelElement href="EECS3311-Assingment.uml#_fAQhMbRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLdEo7RnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_fARIQbRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLdEpLRnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fLdEpbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fLdEprRnEe23GrQ-bRKyhQ" name="Statement">
+        <modelElement href="EECS3311-Assingment.uml#_e_2RgLRnEe23GrQ-bRKyhQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fLdEp7RnEe23GrQ-bRKyhQ" defaultValue="null" name="resultSet">
+      <modelElement href="EECS3311-Assingment.uml#_fARIQrRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLdEqLRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_fARvUbRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLdEqbRnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fLdEqrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fLdEq7RnEe23GrQ-bRKyhQ" name="ResultSet">
+        <modelElement href="EECS3311-Assingment.uml#_e_0cUbRnEe23GrQ-bRKyhQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fLdErLRnEe23GrQ-bRKyhQ" defaultValue="&quot;jdbc:mysql://localhost:3306/eecs3311?&quot;" name="URL">
+      <modelElement href="EECS3311-Assingment.uml#_fARvUrRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLdErbRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_fASWYbRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLdErrRnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fLdEr7RnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fLdEsLRnEe23GrQ-bRKyhQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fLdEsbRnEe23GrQ-bRKyhQ" defaultValue="&quot;root&quot;" name="USERNAME">
+      <modelElement href="EECS3311-Assingment.uml#_fASWYrRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLdEsrRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_fAS9cLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLdEs7RnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fLdEtLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fLdEtbRnEe23GrQ-bRKyhQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fLdEtrRnEe23GrQ-bRKyhQ" defaultValue="&quot;root1234&quot;" name="PASSWORD">
+      <modelElement href="EECS3311-Assingment.uml#_fAS9cbRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLdEt7RnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_fAS9c7RnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLdEuLRnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fLdEubRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fLdEurRnEe23GrQ-bRKyhQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fLdEu7RnEe23GrQ-bRKyhQ" defaultValue="new HashMap&lt;>()" name="housingDataMap">
+      <modelElement href="EECS3311-Assingment.uml#_fATkgLRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLdEvLRnEe23GrQ-bRKyhQ" name="Generics">
+        <modelElement href="EECS3311-Assingment.uml#_fAULkLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fLdEvbRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_fAULkrRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLdEvrRnEe23GrQ-bRKyhQ" label="#"/>
+      <cardinality xmi:id="_fLdEv7RnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fLdEwLRnEe23GrQ-bRKyhQ" name="List">
+        <modelElement href="EECS3311-Assingment.uml#_e_u8wbRnEe23GrQ-bRKyhQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fLdEwbRnEe23GrQ-bRKyhQ" name="readDataBase">
+      <modelElement href="EECS3311-Assingment.uml#_e572wLRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLdEwrRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fLdEw7RnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_fLdExLRnEe23GrQ-bRKyhQ" name="readDataBase">
+      <modelElement href="EECS3311-Assingment.uml#_e59E4LRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLdExbRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fLdExrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_fLdEx7RnEe23GrQ-bRKyhQ" name="geo">
+        <modelElement href="EECS3311-Assingment.uml#_e59E4bRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fLdEyLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fLdEybRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fLdEyrRnEe23GrQ-bRKyhQ" name="readDataBase">
+      <modelElement href="EECS3311-Assingment.uml#_e5-TALRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLdEy7RnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fLdEzLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_fLdEzbRnEe23GrQ-bRKyhQ" name="geo">
+        <modelElement href="EECS3311-Assingment.uml#_e5-TAbRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fLdEzrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fLdEz7RnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fLdE0LRnEe23GrQ-bRKyhQ" name="date1">
+        <modelElement href="EECS3311-Assingment.uml#_e5-TArRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fLdE0bRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fLdE0rRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fLdE07RnEe23GrQ-bRKyhQ" name="date2">
+        <modelElement href="EECS3311-Assingment.uml#_e5-TA7RnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fLdroLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fLdrobRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fLdrorRnEe23GrQ-bRKyhQ" name="getHousingDataMap">
+      <modelElement href="EECS3311-Assingment.uml#_e5_hILRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLdro7RnEe23GrQ-bRKyhQ" name="Generics">
+        <modelElement href="EECS3311-Assingment.uml#_e6AvQLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLdrpLRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fLdrpbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fLdrprRnEe23GrQ-bRKyhQ">
+        <modelElement href="EECS3311-Assingment.uml#_fAJMcLRnEe23GrQ-bRKyhQ"/>
+        <type xmi:id="_fLdrp7RnEe23GrQ-bRKyhQ" name="Map">
+          <modelElement href="EECS3311-Assingment.uml#_e_wK4LRnEe23GrQ-bRKyhQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_fLdrqLRnEe23GrQ-bRKyhQ" name="close">
+      <modelElement href="EECS3311-Assingment.uml#_e6B9YLRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLdrqbRnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fLdrqrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_fLdrq7RnEe23GrQ-bRKyhQ" name="getValuesFormGeoAndRange">
+      <modelElement href="EECS3311-Assingment.uml#_e6DLgLRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLdrrLRnEe23GrQ-bRKyhQ" name="Array">
+        <modelElement href="EECS3311-Assingment.uml#_e6DylbRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fLdrrbRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_e6FAsLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fLdrrrRnEe23GrQ-bRKyhQ" name="Annotations">
+        <modelElement href="EECS3311-Assingment.uml#_e6FnwLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLdrr7RnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fLdrsLRnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_fLdrsbRnEe23GrQ-bRKyhQ">
+        <modelElement href="EECS3311-Assingment.uml#_e6Dyk7RnEe23GrQ-bRKyhQ"/>
+        <type xmi:id="_fLdrsrRnEe23GrQ-bRKyhQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fLdrs7RnEe23GrQ-bRKyhQ" name="geo">
+        <modelElement href="EECS3311-Assingment.uml#_e6DykLRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fLdrtLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fLdrtbRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fLdrtrRnEe23GrQ-bRKyhQ" name="date1">
+        <modelElement href="EECS3311-Assingment.uml#_e6DykbRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fLdrt7RnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fLdruLRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fLdrubRnEe23GrQ-bRKyhQ" name="date2">
+        <modelElement href="EECS3311-Assingment.uml#_e6DykrRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fLdrurRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fLdru7RnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fLdrvLRnEe23GrQ-bRKyhQ" name="getListHousingPrice">
+      <modelElement href="EECS3311-Assingment.uml#_fAJzgLRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fLdrvbRnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fLdrvrRnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_fLdrv7RnEe23GrQ-bRKyhQ">
+        <modelElement href="EECS3311-Assingment.uml#_fAJzgrRnEe23GrQ-bRKyhQ"/>
+        <type xmi:id="_fLdrwLRnEe23GrQ-bRKyhQ" name="HousingPriceData">
+          <modelElement href="EECS3311-Assingment.uml#_e51JELRnEe23GrQ-bRKyhQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fLdrwbRnEe23GrQ-bRKyhQ" name="map">
+        <modelElement href="EECS3311-Assingment.uml#_fAJzgbRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fLdrwrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fLdrw7RnEe23GrQ-bRKyhQ" name="Map">
+          <modelElement href="EECS3311-Assingment.uml#_e_wK4LRnEe23GrQ-bRKyhQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fLdrxLRnEe23GrQ-bRKyhQ" name="getValuesFromRange">
+      <modelElement href="EECS3311-Assingment.uml#_fALBobRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLdrxbRnEe23GrQ-bRKyhQ" name="Array">
+        <modelElement href="EECS3311-Assingment.uml#_fALBpbRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLdrxrRnEe23GrQ-bRKyhQ" label="-"/>
+      <cardinality xmi:id="_fLdrx7RnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_fLdryLRnEe23GrQ-bRKyhQ">
+        <modelElement href="EECS3311-Assingment.uml#_fALBo7RnEe23GrQ-bRKyhQ"/>
+        <type xmi:id="_fLdrybRnEe23GrQ-bRKyhQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fLdryrRnEe23GrQ-bRKyhQ" name="list">
+        <modelElement href="EECS3311-Assingment.uml#_fALBorRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fLdry7RnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fLdrzLRnEe23GrQ-bRKyhQ" name="List">
+          <modelElement href="EECS3311-Assingment.uml#_e_u8wbRnEe23GrQ-bRKyhQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fLEDCLRnEe23GrQ-bRKyhQ" name="DataFetchTest" associationsOut="_fLDb8LRnEe23GrQ-bRKyhQ">
+    <modelElement href="EECS3311-Assingment.uml#_e6a-8LRnEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_fLEDCbRnEe23GrQ-bRKyhQ" position="214.0,41.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fLEDCrRnEe23GrQ-bRKyhQ" label="~"/>
+    <attributes xmi:id="_fLEDC7RnEe23GrQ-bRKyhQ" defaultValue="new MySQLAccess()" name="db">
+      <modelElement href="EECS3311-Assingment.uml#_fAWn0LRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLEDDLRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_fAWn0rRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLEDDbRnEe23GrQ-bRKyhQ" label="~"/>
+      <cardinality xmi:id="_fLEDDrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fLEDD7RnEe23GrQ-bRKyhQ" name="MySQLAccess">
+        <modelElement href="EECS3311-Assingment.uml#_e56BkLRnEe23GrQ-bRKyhQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fLEDELRnEe23GrQ-bRKyhQ" name="allData">
+      <modelElement href="EECS3311-Assingment.uml#_e6cNELRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLEDEbRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_e6dbMLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fLEDErRnEe23GrQ-bRKyhQ" name="Annotations">
+        <modelElement href="EECS3311-Assingment.uml#_e6eCQLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLEDE7RnEe23GrQ-bRKyhQ" label="~"/>
+      <cardinality xmi:id="_fLEDFLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_fLEDFbRnEe23GrQ-bRKyhQ" name="containsGEO">
+      <modelElement href="EECS3311-Assingment.uml#_e6eCQrRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLEDFrRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_e6epULRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fLEDF7RnEe23GrQ-bRKyhQ" name="Annotations">
+        <modelElement href="EECS3311-Assingment.uml#_e6fQYLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLEDGLRnEe23GrQ-bRKyhQ" label="~"/>
+      <cardinality xmi:id="_fLEDGbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_fLEDGrRnEe23GrQ-bRKyhQ" name="containsGEONot">
+      <modelElement href="EECS3311-Assingment.uml#_e6fQYrRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLEDG7RnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_e6f3cLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fLEDHLRnEe23GrQ-bRKyhQ" name="Annotations">
+        <modelElement href="EECS3311-Assingment.uml#_e6gegLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLEDHbRnEe23GrQ-bRKyhQ" label="~"/>
+      <cardinality xmi:id="_fLEDHrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_fLEDH7RnEe23GrQ-bRKyhQ" name="containsFirstDate">
+      <modelElement href="EECS3311-Assingment.uml#_e6hFkLRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLEDILRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_e6hsoLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fLEDIbRnEe23GrQ-bRKyhQ" name="Annotations">
+        <modelElement href="EECS3311-Assingment.uml#_e6hsobRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLEDIrRnEe23GrQ-bRKyhQ" label="~"/>
+      <cardinality xmi:id="_fLEDI7RnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_fLEDJLRnEe23GrQ-bRKyhQ" name="containsLastDate">
+      <modelElement href="EECS3311-Assingment.uml#_e6iTsLRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLEDJbRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_e6i6wLRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fLEDJrRnEe23GrQ-bRKyhQ" name="Annotations">
+        <modelElement href="EECS3311-Assingment.uml#_e6jh0LRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLEDJ7RnEe23GrQ-bRKyhQ" label="~"/>
+      <cardinality xmi:id="_fLEDKLRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_fLEDKbRnEe23GrQ-bRKyhQ" name="containsBetweenDate">
+      <modelElement href="EECS3311-Assingment.uml#_e6kI4LRnEe23GrQ-bRKyhQ"/>
+      <stereotypes xmi:id="_fLEDKrRnEe23GrQ-bRKyhQ" name="LegacyStyledElement">
+        <modelElement href="EECS3311-Assingment.uml#_e6kI4bRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fLEDK7RnEe23GrQ-bRKyhQ" name="Annotations">
+        <modelElement href="EECS3311-Assingment.uml#_e6kv8LRnEe23GrQ-bRKyhQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fLEDLLRnEe23GrQ-bRKyhQ" label="~"/>
+      <cardinality xmi:id="_fLEDLbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fLN0ALRnEe23GrQ-bRKyhQ" supplying="_xA9boLRpEe23GrQ-bRKyhQ" name="Exception">
+    <modelElement href="EECS3311-Assingment.uml#_fAHXQLRnEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_fLN0AbRnEe23GrQ-bRKyhQ" position="852.0,308.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_fLN0ArRnEe23GrQ-bRKyhQ" name="Reference">
+      <modelElement href="EECS3311-Assingment.uml#_fAH-ULRnEe23GrQ-bRKyhQ"/>
+    </stereotypes>
+    <visibility xmi:id="_fLN0A7RnEe23GrQ-bRKyhQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fMC6cLRnEe23GrQ-bRKyhQ" name="ControllerMain">
+    <modelElement href="EECS3311-Assingment.uml#_e5vpgLRnEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_fMC6cbRnEe23GrQ-bRKyhQ" position="393.0,532.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fMC6crRnEe23GrQ-bRKyhQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fMQ84LRnEe23GrQ-bRKyhQ" name="ForeCastMain">
+    <modelElement href="EECS3311-Assingment.uml#_e6M8gLRnEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_fMQ84bRnEe23GrQ-bRKyhQ" position="229.0,532.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fMQ84rRnEe23GrQ-bRKyhQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fMVOULRnEe23GrQ-bRKyhQ" name="VisualiserMain">
+    <modelElement href="EECS3311-Assingment.uml#_e5kDULRnEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_fMVOUbRnEe23GrQ-bRKyhQ" position="558.0,537.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fMVOUrRnEe23GrQ-bRKyhQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fMTZILRnEe23GrQ-bRKyhQ" name="StatisticalMain">
+    <modelElement href="EECS3311-Assingment.uml#_e6OKoLRnEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_fMTZIbRnEe23GrQ-bRKyhQ" position="73.0,651.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fMTZIrRnEe23GrQ-bRKyhQ" label="+"/>
+    <operations xmi:id="_fMTZI7RnEe23GrQ-bRKyhQ" name="main" staticOperation="true">
+      <modelElement href="EECS3311-Assingment.uml#_e6OxsLRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fMTZJLRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fMTZJbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_fMTZJrRnEe23GrQ-bRKyhQ" name="args">
+        <modelElement href="EECS3311-Assingment.uml#_e6OxsbRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fMTZJ7RnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_fMTZKLRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fL6-oLRnEe23GrQ-bRKyhQ" name="DataFetcherMain">
+    <modelElement href="EECS3311-Assingment.uml#_e5wQkLRnEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_fL6-obRnEe23GrQ-bRKyhQ" position="70.0,757.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fL6-orRnEe23GrQ-bRKyhQ" label="+"/>
+    <operations xmi:id="_fL6-o7RnEe23GrQ-bRKyhQ" name="main" staticOperation="true">
+      <modelElement href="EECS3311-Assingment.uml#_e5w3oLRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fL6-pLRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fL6-pbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_fL6-prRnEe23GrQ-bRKyhQ" name="args">
+        <modelElement href="EECS3311-Assingment.uml#_e5w3obRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fL6-p7RnEe23GrQ-bRKyhQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_fL6-qLRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fL-B8LRnEe23GrQ-bRKyhQ" name="HousingPriceData">
+    <modelElement href="EECS3311-Assingment.uml#_e51JELRnEe23GrQ-bRKyhQ"/>
+    <visualProperties xmi:id="_fL-B8bRnEe23GrQ-bRKyhQ" position="379.0,649.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fL-B8rRnEe23GrQ-bRKyhQ" label="+"/>
+    <attributes xmi:id="_fL-B87RnEe23GrQ-bRKyhQ" name="refDate">
+      <modelElement href="EECS3311-Assingment.uml#_fAOsALRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fL-B9LRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fL-B9bRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fL-B9rRnEe23GrQ-bRKyhQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fL-B97RnEe23GrQ-bRKyhQ" name="geo">
+      <modelElement href="EECS3311-Assingment.uml#_fAPTELRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fL-B-LRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fL-B-bRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fL-B-rRnEe23GrQ-bRKyhQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fL-B-7RnEe23GrQ-bRKyhQ" name="indexType">
+      <modelElement href="EECS3311-Assingment.uml#_fAPTEbRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fL-B_LRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fL-B_bRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fL-B_rRnEe23GrQ-bRKyhQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fL-B_7RnEe23GrQ-bRKyhQ" name="value">
+      <modelElement href="EECS3311-Assingment.uml#_fAP6ILRnEe23GrQ-bRKyhQ"/>
+      <visibility xmi:id="_fL-CALRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fL-CAbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fL-CArRnEe23GrQ-bRKyhQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fL-CA7RnEe23GrQ-bRKyhQ" name="HousingPriceData">
+      <modelElement href="EECS3311-Assingment.uml#_e53lULRnEe23GrQ-bRKyhQ"/>
+      <keywords xmi:id="_fL-CBLRnEe23GrQ-bRKyhQ" keyword="create"/>
+      <visibility xmi:id="_fL-CBbRnEe23GrQ-bRKyhQ" label="+"/>
+      <cardinality xmi:id="_fL-CBrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fL-CB7RnEe23GrQ-bRKyhQ">
+        <modelElement href="EECS3311-Assingment.uml#_e54zcbRnEe23GrQ-bRKyhQ"/>
+        <type xmi:id="_fL-CCLRnEe23GrQ-bRKyhQ" name="HousingPriceData">
+          <modelElement href="EECS3311-Assingment.uml#_e51JELRnEe23GrQ-bRKyhQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fL-CCbRnEe23GrQ-bRKyhQ" name="refDate">
+        <modelElement href="EECS3311-Assingment.uml#_e54MYLRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fL-CCrRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fL-CC7RnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fL-CDLRnEe23GrQ-bRKyhQ" name="geo">
+        <modelElement href="EECS3311-Assingment.uml#_e54MYbRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fL-CDbRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fL-CDrRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fL-CD7RnEe23GrQ-bRKyhQ" name="indexType">
+        <modelElement href="EECS3311-Assingment.uml#_e54MYrRnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fL-CELRnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fL-CEbRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_fL-CErRnEe23GrQ-bRKyhQ" name="value">
+        <modelElement href="EECS3311-Assingment.uml#_e54MY7RnEe23GrQ-bRKyhQ"/>
+        <cardinality xmi:id="_fL-CE7RnEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fL-CFLRnEe23GrQ-bRKyhQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

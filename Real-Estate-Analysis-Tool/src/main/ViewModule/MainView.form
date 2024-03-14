@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main.ViewModule.MainView">
+  <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="736" height="565"/>
+    </constraints>
+    <properties>
+      <preferredSize width="900" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e9c81" binding="logoPanel" layout-manager="GridBagLayout">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="80dda" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="64de0" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="7d7cb" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="9019" binding="northPanel" layout-manager="GridBagLayout">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="94037">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="8" vsize-policy="7" hsize-policy="7" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="100"/>
+                    <maximum-size width="-1" height="100"/>
+                  </grid>
+                  <gridbag top="5" left="5" bottom="10" right="5" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <preferredSize width="-1" height="100"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="9c5cf" class="javax.swing.JList" binding="stringJList">
+                    <constraints/>
+                    <properties>
+                      <fixedCellHeight value="-1"/>
+                      <maximumSize width="-1" height="-1"/>
+                      <minimumSize width="-1" height="-1"/>
+                      <preferredSize width="-1" height="900"/>
+                      <valueIsAdjusting value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="8390b" class="javax.swing.JButton" binding="btnAddTimeSeries">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Add Time Series"/>
+                </properties>
+              </component>
+              <component id="669ee" class="javax.swing.JButton" binding="btnDeleteTimeSeries">
+                <constraints>
+                  <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="0" right="5" weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Delete Time Series"/>
+                </properties>
+              </component>
+              <component id="e5465" class="javax.swing.JComboBox" binding="comboAvailableView">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Pie Chart"/>
+                    <item value="Line Chart"/>
+                    <item value="Bar Chart"/>
+                    <item value="Scatter Chart"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="418f7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                  <gridbag top="0" left="10" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Availabe View"/>
+                </properties>
+              </component>
+              <component id="c1959" class="javax.swing.JButton" binding="btnLoad">
+                <constraints>
+                  <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Load"/>
+                </properties>
+              </component>
+              <component id="5e925" class="javax.swing.JComboBox" binding="timeIntervalComboBox">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="monthly"/>
+                    <item value="yearly"/>
+                    <item value="every 6 months"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="bdd5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                  <gridbag top="0" left="10" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Granularity"/>
+                </properties>
+              </component>
+              <grid id="fe4f2" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="689ea" class="javax.swing.JButton" binding="btnAddView">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <component id="b719e" class="javax.swing.JButton" binding="btnDeleteView">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="-"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="8b24b" class="javax.swing.JButton" binding="btnToggleReportTable">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Switch to Report"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="ec4ff" binding="southPanel" layout-manager="GridBagLayout">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="16f" class="javax.swing.JButton" binding="btnStatistic">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <text value="Statistical Analytics"/>
+                </properties>
+              </component>
+              <hspacer id="3bea4">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="44084">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </vspacer>
+              <component id="fd03d" class="javax.swing.JButton" binding="btnForecast">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <text value="Forecasting"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="be729" binding="centerPanel" layout-manager="GridBagLayout">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
