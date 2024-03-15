@@ -28,7 +28,7 @@ main\ViewModule\ForeCastView$3.class
 main\ViewModule\MainView$2.class
 main\ViewModule\Visualizations\LineChart.class
 main\ModelModule\DataConnector_Storage\DbInterface.class
-main\ModelModule\Statistical\StudentsIndependentTTest.class
+main\ModelModule\Statistical\IndependentTTest.class
 main\ViewModule\MainView$6.class
 main\ViewModule\Visualizations\ScatterPlot.class
 main\ViewModule\Visualizations\Report.class

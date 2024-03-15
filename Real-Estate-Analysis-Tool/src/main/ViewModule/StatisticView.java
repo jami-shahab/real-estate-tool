@@ -116,7 +116,7 @@ public class StatisticView extends TemplateAbstractFrame {
             showError("Please select at least two time series.");
             return false;
         }
-        if (selectedTest.equals("Student-T-Test") && numSelected != 2) {
+        if (selectedTest.equals("T-Test") && numSelected != 2) {
             showError("Please select exactly two time series for t-test.");
             return false;
         }
@@ -233,7 +233,7 @@ public class StatisticView extends TemplateAbstractFrame {
         panel2.add(btnLoadTest, gbc);
         statisticCombo = new JComboBox();
         final DefaultComboBoxModel defaultComboBoxModel1 = new DefaultComboBoxModel();
-        defaultComboBoxModel1.addElement("Student-T-Test");
+        defaultComboBoxModel1.addElement("T-Test");
         defaultComboBoxModel1.addElement("One Way ANOVA");
         statisticCombo.setModel(defaultComboBoxModel1);
         gbc = new GridBagConstraints();

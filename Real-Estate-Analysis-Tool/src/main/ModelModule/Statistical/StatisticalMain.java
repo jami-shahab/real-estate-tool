@@ -17,8 +17,8 @@ public class StatisticalMain {
         TimeSeries ts2 = new TimeSeries("Canada", "Jan-04", "Feb-07");
         TimeSeries ts3 = new TimeSeries("Canada", "Jan-07", "Feb-10");
 
-        // Independent Student's t-test
-        StudentsIndependentTTest tTest = new StudentsIndependentTTest(dbInterface);
+        // Independent t-test
+        IndependentTTest tTest = new IndependentTTest(dbInterface);
         try {
             tTest.setData(List.of(new TimeSeries[]{ts1, ts2}));
             System.out.println(tTest);

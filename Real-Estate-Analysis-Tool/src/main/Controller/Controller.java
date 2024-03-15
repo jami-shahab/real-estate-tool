@@ -6,7 +6,7 @@ import main.ModelModule.DataConnector_Storage.RowOfHousingData;
 import main.ModelModule.Forecast.LinearRegressionPrediction;
 import main.ModelModule.Statistical.AbstractStatisticalTest;
 import main.ModelModule.Statistical.OneWayAnovaTest;
-import main.ModelModule.Statistical.StudentsIndependentTTest;
+import main.ModelModule.Statistical.IndependentTTest;
 import main.ViewModule.MainView;
 import main.ViewModule.ViewModuleInterface;
 
@@ -17,7 +17,7 @@ import java.util.Map;
 
 public class Controller implements ViewModuleInterface {
 
-        private final String [] STAT_TEST = {"Student-T-Test", "One Way ANOVA"};
+        private final String [] STAT_TEST = {"T-Test", "One Way ANOVA"};
         private DbInterface dbInterface;
 
         private MainView mainView;
@@ -36,7 +36,7 @@ public class Controller implements ViewModuleInterface {
                 AbstractStatisticalTest test = null;
 
                 if (STAT_TEST[0].equals(testType)) {
-                        test = new StudentsIndependentTTest(dbInterface);
+                        test = new IndependentTTest(dbInterface);
                 } else if (STAT_TEST[1].equals(testType)) {
                         test = new OneWayAnovaTest(dbInterface);
                 }

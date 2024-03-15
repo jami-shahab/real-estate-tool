@@ -4,9 +4,9 @@ import main.ModelModule.DataConnector_Storage.DbInterface;
 import org.apache.commons.math3.stat.*;
 import org.apache.commons.math3.stat.inference.TestUtils;
 
-    public class StudentsIndependentTTest extends AbstractStatisticalTest {
+    public class IndependentTTest extends AbstractStatisticalTest {
 
-        public StudentsIndependentTTest(DbInterface dbInterface) {
+        public IndependentTTest(DbInterface dbInterface) {
             super(dbInterface);
         }
 
@@ -18,7 +18,7 @@ import org.apache.commons.math3.stat.inference.TestUtils;
         public String toString() {
             double significanceLevel = 0.05;
             double pValue = performTest();
-            StringBuilder summary = new StringBuilder("**Independent Student's t-test results:**\n\n");
+            StringBuilder summary = new StringBuilder("**Independent t-test results:**\n\n");
 
             for (int i = 0; i < data.length; i++) {
                 summary.append(String.format("%s (mean = %.2f)\n", timeSeriesList.get(i).toString(), StatUtils.mean(data[i])));

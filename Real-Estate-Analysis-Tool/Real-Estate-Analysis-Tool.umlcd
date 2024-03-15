@@ -155,7 +155,7 @@
       <visibility xmi:id="_Tb5bRLRpEe23GrQ-bRKyhQ" label="+"/>
       <cardinality xmi:id="_Tb5bRbRpEe23GrQ-bRKyhQ" label="*" max="-1"/>
     </sourceRole>
-    <targetRole xmi:id="_Tb5bRrRpEe23GrQ-bRKyhQ" aggregationKind="NONE" name="studentTTest" navigable="true">
+    <targetRole xmi:id="_Tb5bRrRpEe23GrQ-bRKyhQ" aggregationKind="NONE" name="TTest" navigable="true">
       <modelElement href="EECS3311-Assingment.uml#_Tb2_BLRpEe23GrQ-bRKyhQ"/>
       <visualProperties xmi:id="_Tf-C8LRpEe23GrQ-bRKyhQ" position="2.0,-1.9999999999999432"/>
       <visibility xmi:id="_Tb5bR7RpEe23GrQ-bRKyhQ" label="+"/>
@@ -440,7 +440,7 @@
         <modelElement href="EECS3311-Assingment.uml#_e5yFwLRnEe23GrQ-bRKyhQ"/>
       </type>
     </attributes>
-    <attributes xmi:id="_Tb5bSbRpEe23GrQ-bRKyhQ" name="studentTTest">
+    <attributes xmi:id="_Tb5bSbRpEe23GrQ-bRKyhQ" name="TTest">
       <modelElement href="EECS3311-Assingment.uml#_Tb2_BLRpEe23GrQ-bRKyhQ"/>
       <visibility xmi:id="_Tb5bSrRpEe23GrQ-bRKyhQ" label="+"/>
       <cardinality xmi:id="_Tb5bS7RpEe23GrQ-bRKyhQ" label="1" max="1" min="1"/>

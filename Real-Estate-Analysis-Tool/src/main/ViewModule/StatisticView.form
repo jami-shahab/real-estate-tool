@@ -98,7 +98,7 @@
             </constraints>
             <properties>
               <model>
-                <item value="Student-T-Test"/>
+                <item value="T-Test"/>
                 <item value="One Way ANOVA"/>
               </model>
             </properties>
